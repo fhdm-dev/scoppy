@@ -16,6 +16,7 @@ USB OTG adapter cables can be bought for a few dollars.
 
 ## Quick Start
 ### 1. Install the Scoppy Android App
+NOTE: The Android App will be available soon.
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
 ### 2. Install the firmware onto your Pico

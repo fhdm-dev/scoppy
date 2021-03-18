@@ -2,6 +2,7 @@
 
 ## Installation Instructions
 ### 1. Install the Android App
+NOTE: The Android App will be available soon.
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store. Once installed you can explore some of the capabilities of the app by selecting the demo mode. To do this, tap the 'USB' badge at the bottom left of the screen. Then tap 'Change input'.
 
 ### 2. Install the Firmware
