@@ -24,7 +24,7 @@ Copy the [pico-scoppy-v1.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v1.u
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
 
 ### 4. Start Scoppying!
-Attach one probe (wire) to GPIO26 of the Pico and the other to ground. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information.
+Attach one probe (wire) to GPIO26 of the Pico and the other to ground. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
 
 ## Detailed installation instructions
 See [here](Install.md) for more detailed installation instructions.

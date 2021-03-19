@@ -15,7 +15,7 @@ Once you open the app and a connection is established between the Pico and the S
 Note. If you selected the Demo mode in step 1, you'll need to change the input back to USB.
 
 ### 4. Start Scoppying!
-Attach one probe (wire) to GPIO26 of the Pico and the other to ground. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information.
+Attach one probe (wire) to GPIO26 of the Pico and the other to ground. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
 
 ## Measuring different voltage ranges (optional)
 To measure different voltage ranges (eg. -5V to +5V or 0V to 0.1V etc) you will need to add additional circuitry between the probes and the ADC of the Pico to attenuate/amplify the signal and/or provide an appropriate voltage offset (more information and examples will be provided in the near future).
