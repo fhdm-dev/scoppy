@@ -8,11 +8,6 @@ Signals are measured by the Pico and the waveform is displayed on the Android de
 * A USB OTG adapter/cable compatible with your phone/tablet.
 * A Rasperry Pi Pico board
 
-## What does it cost?
-If you have the items listed above then nothing. If you don't want to see Ads in the app or you want to use 2 channels then you can pay a few dollars to upgrade to the premium version of the app.
-
-USB OTG adapters/cables can be bought for a few dollars.
-
 ## Quick Start
 ### 1. Install the Scoppy Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
