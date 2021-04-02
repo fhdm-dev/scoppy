@@ -19,7 +19,7 @@ Copy the [pico-scoppy-v1.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v1.u
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
 
 ### 4. Start Scoppying!
-Attach one probe (wire) to GPIO26 of the Pico and the other to ground. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
+Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
 
 ## Detailed installation instructions
 See [here](Install.md) for more detailed installation instructions.
@@ -29,15 +29,14 @@ See [here](Install.md).
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
-* Long-pressing most of the control buttons will set the corresponding setting to a default value eg. long-pressing the horizontal position button will reset the horizontal position back to zero
+* Long-pressing most of the control buttons will set the corresponding setting to a default value eg. long-pressing the horizontal position button will reset the horizontal position back to zero. Long-pressing the trigger level button will set the trigger level to the centre of the waveform.
 * Long-pressing any of the +/- buttons will continuously change the corresponding value. The longer you press it the faster the value will change.
 * Tapping/dragging anything on the grid won't work! That functionality is yet to be implemented. For now you need to use the control buttons.
-* To change the trigger level or channel tap the TRIG badge at the bottom of the screen
+
 
 ## Quirks
 * If the screen turns off or the app is no longer in the foreground the run mode will change to STOPPED (to prevent draining the battery). You will need to tap RUN to restart the scope.
 * The OFF trigger mode prevents all triggering and Scoppy will set the horizonal position so that it is displaying the most recent samples (it normally tries to find a trigger point near the centre of the sample record). This may or may not be useful for viewing very slowly changing signals.
-* The sampling rate changes automatically as you change TIME/DIV so if you zoom in or out of a signal you might find the trace changing from under you. To prevent this tap STOP before changing the TIME/DIV setting.
 
 ## Troubleshooting
 * If the Pico doesn't seem to be connecting try the following:
@@ -67,7 +66,7 @@ I'll look at adding the following if there is enough interest in the app:
 The Scoppy app in Demo mode
 
 ![Scoppy Development](images/development1.jpg)
-Scoppy under development. From left to right: Arduino Uno, AD9833 waveform generator and associated paraphenalia, Pico acting as debugger, Pico running an early version of the scoppy-pico firmware, Nokia 2.1
+Scoppy under development. From left to right: Arduino Uno, [AD9833 waveform generator](https://www.instructables.com/Simple-AD9833-Based-Signal-Generator/) and associated paraphenalia, Pico acting as debugger, Pico running an early version of the scoppy-pico firmware, the Scoppy app on a Nokia 2.1
 
 
 
