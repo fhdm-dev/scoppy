@@ -3,6 +3,8 @@ Scoppy is a simple oscilloscope that consists of an Android App for your phone/t
 
 Signals are measured by the Pico and the waveform is displayed on the Android device.
 
+See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [Discussions](https://github.com/fhdm-dev/scoppy/discussions) for ... well ... discussing Scoppy.
+
 ## What you'll need
 * An Android device that's running Android version 23 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do
 * A USB OTG adapter/cable compatible with your phone/tablet.
@@ -65,8 +67,7 @@ I'll look at adding the following if there is enough interest in the app:
 ## Specifications
 * Max. Sampling Rate: 500kS/s (shared between channels)
 * Time/Div: 5us - 20secs
-* Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) to 20kpts.
-* Frame rate: 5fps
+* Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
 
 ## Gallery
 ![Scoppy App](images/phone1.png)
