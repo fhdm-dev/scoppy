@@ -8,12 +8,17 @@ Signals are measured by the Pico and the waveform is displayed on the Android de
 * A USB OTG adapter/cable compatible with your phone/tablet.
 * A Rasperry Pi Pico board
 
+> Important
+
+> Please use the latest versions of the App (v1.010) and Firmware (v2). Older versions of the firmware will not work with the latest version of the app and vice versa
+
 ## Quick Start
 ### 1. Install the Scoppy Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
 ### 2. Install the firmware onto your Pico
-Copy the [pico-scoppy-v1.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v1.uf2) file onto your Pico. The onboard LED should start blinking.
+Download the firmware onto your computer. It is here: [pico-scoppy-v2.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v2.uf2).
+Press the bootsel button on your Pico and connect it to your computer. Copy the pico-scoppy-v2.uf2 file onto your Pico. The onboard LED should start blinking.
 
 ### 3. Connect the Pico to your Phone/Tablet
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
@@ -21,11 +26,13 @@ Attach the OTG adapter/cable to the USB input of the Android device. The other e
 ### 4. Start Scoppying!
 Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
 
+If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with the duty cycle of 50%. GPIO 18 is a 800Hz square wave with the duty cycle of 20%.
+
 ## Detailed installation instructions
-See [here](Install.md) for more detailed installation instructions.
+See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation) for more detailed installation instructions.
 
 ## Measuring different voltage ranges
-See [here](Install.md).
+See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation).
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
