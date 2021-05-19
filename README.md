@@ -31,10 +31,10 @@ Attach the +ve output of your signal source to GPIO26 of the Pico and the ground
 If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with a duty cycle of 50%. GPIO 18 is a 800Hz square wave with a duty cycle of 20%.
 
 ## Detailed installation instructions
-See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation) for more detailed installation instructions.
+See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for more detailed installation instructions.
 
 ## Measuring different voltage ranges
-See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation).
+See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki).
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
