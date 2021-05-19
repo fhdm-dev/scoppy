@@ -28,13 +28,13 @@ Attach the OTG adapter/cable to the USB input of the Android device. The other e
 ### 4. Start Scoppying!
 Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
 
-If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with the duty cycle of 50%. GPIO 18 is a 800Hz square wave with the duty cycle of 20%.
+If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with a duty cycle of 50%. GPIO 18 is a 800Hz square wave with a duty cycle of 20%.
 
 ## Detailed installation instructions
-See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation) for more detailed installation instructions.
+See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for more detailed installation instructions.
 
 ## Measuring different voltage ranges
-See [here](https://github.com/fhdm-dev/scoppy/wiki/Installation).
+See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki).
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
@@ -70,8 +70,8 @@ I'll look at adding the following if there is enough interest in the app:
 * Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
 
 ## Gallery
-![Scoppy App](images/phone1.png)
-The Scoppy app in Demo mode
+![Scoppy App](images/scoppy-v2-single-capture.jpg)
+Part way through a single capture. 
 
 ![Scoppy Development](images/development1.jpg)
 Scoppy under development. From left to right: Arduino Uno, [AD9833 waveform generator](https://www.instructables.com/Simple-AD9833-Based-Signal-Generator/) and associated paraphenalia, Pico acting as debugger, Pico running an early version of the scoppy-pico firmware, the Scoppy app on a Nokia 2.1
