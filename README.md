@@ -57,9 +57,6 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki).
 ## Missing Functionality
 I'll look at adding the following if there is enough interest in the app:
 
-* Single shot capture
-* Normal mode triggering
-* More measurements eg. Frequency
 * Better touch interface eg. dragging the trigger indicator to change trigger level and swiping to change horizontal position.
 * More trigger settings eg. falling edge
 * Cursors
@@ -77,4 +74,5 @@ Part way through a single capture.
 Scoppy under development. From left to right: Arduino Uno, [AD9833 waveform generator](https://www.instructables.com/Simple-AD9833-Based-Signal-Generator/) and associated paraphenalia, Pico acting as debugger, Pico running an early version of the scoppy-pico firmware, the Scoppy app on a Nokia 2.1
 
 
+[More photos are here...](https://github.com/fhdm-dev/scoppy/wiki/Gallery)
 
