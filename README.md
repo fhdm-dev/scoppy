@@ -1,7 +1,7 @@
 # Scoppy
-Scoppy is a simple oscilloscope that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. No programming is required.
+Scoppy is an oscilloscope that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download.
 
-Signals are measured by the Pico and the waveform is displayed on the Android device.
+The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals (about 100kHz is currently the upper limit).
 
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [Discussions](https://github.com/fhdm-dev/scoppy/discussions) for ... well ... discussing Scoppy.
 
@@ -26,7 +26,7 @@ Press the bootsel button on your Pico and connect it to your computer. Copy the 
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
 
 ### 4. Start Scoppying!
-Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27.
+Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27. You might want to insert a current limiting resistor (eg 100R) between the signal source and the pico ADC, just to be safe.
 
 If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with a duty cycle of 50%. GPIO 18 is a 800Hz square wave with a duty cycle of 20%.
 
