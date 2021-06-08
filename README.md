@@ -6,7 +6,7 @@ The aim of the Scoppy project is to give electronics novices and hobbyists acces
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [Discussions](https://github.com/fhdm-dev/scoppy/discussions) for ... well ... discussing Scoppy.
 
 ## What you'll need
-* An Android device that's running Android version 23 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do (if you don't see the app when browsing the Play Store then your device probably doesn't support this feature)
+* An Android device that's running Android version 6.0 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do (if you don't see the app when browsing the Play Store then your device probably doesn't support this feature)
 * A USB OTG adapter/cable compatible with your phone/tablet
 * A Rasperry Pi Pico board
 
