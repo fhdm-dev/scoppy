@@ -55,6 +55,7 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki).
     * tap STOP and then RUN
     * OR
     * unplug the USB cable and plug it back in
+* If your phone has a Micro-USB connecter then check that the Micro-USB plug of the OTG cable/adapter is plugged into the phone and not into the Pico.
 * If it's still not working then it's possible that your phone/tablet doesn't support USB OTG. You can test this by attaching a USB thumb drive to the OTG cable/adapter. You should be able to browse the files on the drive.
 
 ## Missing Functionality
