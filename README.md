@@ -15,6 +15,9 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [D
 > Please use the latest versions of the App (v1.010) and Firmware (v2). Older versions of the firmware will not work with the latest version of the app and vice versa
 
 ## Quick Start
+
+> Caution (especially for novices). Even the low voltages we're dealing with have the potential to damage electrical equipment (and of course don't even think about trying to measure high voltages) so I don't recommend using an expensive Android device - or for that matter any device you couldn't afford to blow up!
+
 ### 1. Install the Scoppy Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
