@@ -16,7 +16,7 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [D
 
 ## Quick Start
 
-> Caution (especially for novices). Even the low voltages we're dealing with have the potential to damage electrical equipment if you get the wiring wrong (and of course don't even think about trying to measure high voltages) so I don't recommend using an expensive Android device if you're not 100% sure what you're doing.
+> Caution (especially for novices). Even the low voltages we're dealing with have the potential to damage electrical equipment if you get the wiring wrong (and of course don't even think about trying to measure high voltages with Scoppy) so I don't recommend using an expensive Android device if you're not 100% sure what you're doing. Dig out that old, osbsolete Android phone from the bottom drawer and use that instead.
 
 ### 1. Install the Scoppy Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
