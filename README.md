@@ -1,7 +1,7 @@
 # Scoppy
 Scoppy is an oscilloscope that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download.
 
-The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals (about 100kHz is currently the upper limit).
+The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals.
 
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [Discussions](https://github.com/fhdm-dev/scoppy/discussions) for ... well ... discussing Scoppy.
 
