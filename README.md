@@ -1,3 +1,5 @@
+> If you are actually looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
+
 # Scoppy
 Scoppy is an oscilloscope that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download.
 
