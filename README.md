@@ -37,7 +37,7 @@ If you don't have a suitable signal source you can view the test signals on GPIO
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for more detailed installation instructions.
 
 ## Measuring different voltage ranges
-See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki).
+To remove the 0-3.3V input voltage limitation (and do whatever signal conditioning magic takes your fancy) you’ll need to add an [analog front end](https://github.com/fhdm-dev/scoppy/wiki/Analog-Front-End). This can be as simple as a voltage divider or as complex as you want it to be. The [Wiki](https://github.com/fhdm-dev/scoppy/wiki) contains some [examples](https://github.com/fhdm-dev/scoppy/wiki/Analog-Front-End-Examples) of simple (naive?) AFE designs and you are encouraged to share your own front end designs and ideas with other Scoppiers. Just head to the [forum](https://github.com/fhdm-dev/scoppy/discussions).
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
@@ -69,6 +69,12 @@ I'll look at adding the following if there is enough interest in the app:
 * Max. Sampling Rate: 500kS/s (shared between channels)
 * Time/Div: 5us - 20secs
 * Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
+
+## Known Bugs
+* When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
+
+## Advertising and in-app purchase
+The free version of the app is one channel and a single banner ad may be displayed at the top of the screen (but no popups I promise!). To enable the 2nd channel and remove all advertising, a small in-app purchase is required. The one-channel version of the app is completely free and all functionality is available without restriction.
 
 ## Gallery
 ![Scoppy App](images/scoppy-v2-single-capture.jpg)
