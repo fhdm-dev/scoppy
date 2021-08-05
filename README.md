@@ -1,9 +1,9 @@
 > If you are actually looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
 
 # Scoppy
-Scoppy is an oscilloscope that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download.
+Scoppy is an oscilloscope and logic analyzer that consists of an Android App for your phone/tablet and firmware for your Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download.
 
-The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals.
+The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 20MS/s.
 
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [Discussions](https://github.com/fhdm-dev/scoppy/discussions) for ... well ... discussing Scoppy.
 
@@ -14,7 +14,7 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [D
 
 > Important
 
-> Please use the latest versions of the App (v1.010) and Firmware (v2). Older versions of the firmware will not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.012) and Firmware (v3). Older versions of the firmware will not work with the latest version of the app and vice versa
 
 ## Quick Start
 
@@ -22,21 +22,24 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [D
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
 ### 2. Install the firmware onto your Pico
-Download the firmware onto your computer. It is here: [pico-scoppy-v2.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v2.uf2).
+Download the firmware onto your computer. It is here: [pico-scoppy-v3.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v3.uf2).
 Press the bootsel button on your Pico and connect it to your computer. Copy the pico-scoppy-v2.uf2 file onto your Pico. The onboard LED should start blinking.
 
 ### 3. Connect the Pico to your Phone/Tablet
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
 
 ### 4. Start Scoppying!
-Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, attach a probe to GPIO27. You might want to insert a current limiting resistor (eg 100R) between the signal source and the pico ADC, just to be safe.
+Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, connect the signal to GPIO27. You might want to insert a current limiting resistor (eg 100R) between the signal source and the pico ADC, just to be safe.
 
-If you don't have a suitable signal source you can view the test signals on GPIOs 16 and 18 (pins 21 and 24) by connecting one or both of them directly to the ADC pins (GPIO 26 and 27). GPIO 16 is a 1kHz square wave with a duty cycle of 50%. GPIO 18 is a 800Hz square wave with a duty cycle of 20%.
+If you don't have a suitable signal source you can view the test signal on GPIO 22 (on older versions of the firware the test signal was on GPIO 16 and 18) by connecting it directly to the ADC pins (GPIO 26 and 27). GPIO 22 is a 1kHz square wave with a duty cycle of 50%.
+
+## Logic Analyzer
+To use Scoppy as a logic analyzer tap the Menu button and then the Mode button and tap 'Logic Analyzer'. The logic analyzer inputs are GPIOs 6 to 13. Please remember to only apply voltages of between 0 and 3.3V to these pins.
 
 ## Detailed installation instructions
 See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for more detailed installation instructions.
 
-## Measuring different voltage ranges
+## Measuring different voltage ranges (oscilloscope mode)
 To remove the 0-3.3V input voltage limitation (and do whatever signal conditioning magic takes your fancy) you’ll need to add an [analog front end](https://github.com/fhdm-dev/scoppy/wiki/Analog-Front-End). This can be as simple as a voltage divider or as complex as you want it to be. The [Wiki](https://github.com/fhdm-dev/scoppy/wiki) contains some [examples](https://github.com/fhdm-dev/scoppy/wiki/Analog-Front-End-Examples) of simple (naive?) AFE designs and you are encouraged to share your own front end designs and ideas with other Scoppiers. Just head to the [forum](https://github.com/fhdm-dev/scoppy/discussions).
 
 ## Tips
@@ -65,16 +68,20 @@ I'll look at adding the following if there is enough interest in the app:
 * More trigger settings eg. falling edge
 * Cursors
 
-## Specifications
+## Specifications (oscilloscope)
 * Max. Sampling Rate: 500kS/s (shared between channels)
 * Time/Div: 5us - 20secs
 * Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
+
+## Specifications (logic analyzer)
+* Max. Sampling Rate: 21MS/s (per channel)
+* Time/Div: 50ns - 100ms
 
 ## Known Bugs
 * When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
 
 ## Advertising and in-app purchase
-The free version of the app is one channel and a single banner ad may be displayed at the top of the screen (but no popups I promise!). To enable the 2nd channel and remove all advertising, a small in-app purchase is required. The one-channel version of the app is completely free and all functionality is available without restriction.
+The free version of the app is limited to one channel in oscilloscope mode and two channels in logic analyser mode. A single banner ad may be displayed at the top of the screen (but no popups I promise!). To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$1 for a yearly subscription or US$2 for a lifetime purchase - exact price depends on your location). The one-channel version of the app is completely free (two channels in oscilloscope mode) and all functionality is available without restriction.
 
 ## Gallery
 ![Scoppy App](images/scoppy-v2-single-capture.jpg)
