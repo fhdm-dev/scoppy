@@ -14,7 +14,7 @@ See the [Wiki](https://github.com/fhdm-dev/scoppy/wiki) for documentation and [D
 
 > Important
 
-> Please use the latest versions of the App (v1.012) and Firmware (v4). Older versions of the firmware will not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.012) and Firmware (v5). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
 ## Quick Start
@@ -26,8 +26,8 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 
 > Please note that some pin assignments changed in version 4 of the firmware. The test signal is now on GPIO22 and the voltage range pins are now GPIO2 to GPIO5
 
-Download the firmware onto your computer. It is here: [pico-scoppy-v4.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v4.uf2).
-Press the bootsel button on your Pico and connect it to your computer. Copy the pico-scoppy-v4.uf2 file onto your Pico. The onboard LED should start blinking.
+Download the firmware onto your computer. It is here: [pico-scoppy-v5.uf2](https://scoppy.fhdm.xyz/downloads/scoppy-pico-v5.uf2).
+Press the bootsel button on your Pico and connect it to your computer. Copy the pico-scoppy-v5.uf2 file onto your Pico. The onboard LED should start blinking.
 
 ### 3. Connect the Pico to your Phone/Tablet
 Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
