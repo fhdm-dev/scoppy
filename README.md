@@ -88,8 +88,11 @@ I'll look at adding the following if there is enough interest in the app:
 The free version of the app is limited to one channel in oscilloscope mode and two channels in logic analyser mode. A single banner ad may be displayed at the top of the screen (but no popups I promise!). To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$1 for a yearly subscription or US$2 for a lifetime purchase - exact price depends on your location). The one-channel version of the app is completely free (two channels in oscilloscope mode) and all functionality is available without restriction.
 
 ## Gallery
-![Scoppy App](images/scoppy-v2-single-capture.jpg)
-Part way through a single capture. 
+![Scoppy Oscilloscope App](images/scoppy-v2-single-capture.jpg)
+Part way through a single capture in Oscilloscope mode
+
+![Scoppy Logic Analyser](https://github.com/fhdm-dev/scoppy/raw/main/images/20210808-uno-i2c-1.jpg)
+Logic Analyzer mode (2 channels of the 8 available are displayed here)
 
 ![Scoppy Development](images/development1.jpg)
 Scoppy under development. From left to right: Arduino Uno, [AD9833 waveform generator](https://www.instructables.com/Simple-AD9833-Based-Signal-Generator/) and associated paraphenalia, Pico acting as debugger, Pico running an early version of the scoppy-pico firmware, the Scoppy app on a Nokia 2.1
