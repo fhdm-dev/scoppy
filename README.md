@@ -1,7 +1,7 @@
 > If you are looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
 
 # Scoppy
-Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download. Installation is super easy and should only take a few minutes.
+Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download (the [firmware](https://github.com/fhdm-dev/scoppy-pico) is open-source). Installation is super easy and should only take a few minutes.
 
 The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
 
@@ -21,7 +21,8 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 
 ### 2. Install the firmware onto your Pico
 
-Download the firmware onto your computer. It is here: [pico-scoppy-v7.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v7.uf2).
+Download the firmware onto your computer. It is here: [pico-scoppy-v7.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v7.uf2). Alternatively you can [build the uf2 file](https://github.com/fhdm-dev/scoppy-pico) from the sources.
+
 Press the bootsel button on your Pico and connect it to your computer. Copy the uf2 file onto your Pico. The onboard LED should start blinking.
 
 ### 3. Connect the Pico to your Phone/Tablet
@@ -83,7 +84,8 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 
 ## Links
 * An article on [Hackaday](https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/), including many scathing reviews in the comments section. If you hate Scoppy and/or its developer then this would be a great place to vent your anger!
-* Scoppy [YouTube](https://www.youtube.com/channel/UCD006Xn-C9mPuT_jTxH3JHQ) channel (there's nothing much here)
+* Review of [Scoppy on YouTube by @Gabinete de Tecnologia](https://youtu.be/qqPxLXTxoTA)
+
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
