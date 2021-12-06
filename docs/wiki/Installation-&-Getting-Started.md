@@ -42,6 +42,6 @@ If the test signal from step 2 (above) is still connected to GPIO 26 or 27 then 
 To use Scoppy as a logic analyzer tap the Menu button and then the Mode button. Select Logic Analyzer. The logic analyzer inputs are GPIOs 6 to 13 (0V to 3.3V).
 
 ## Using the app
-See [Using the App](./Using-the-App)
+See [Using the App](../app-help)
 
 
