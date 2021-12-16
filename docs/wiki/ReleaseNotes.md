@@ -2,7 +2,7 @@
 title: Release Notes
 ---
 
-### Android App v1.014 - Pico Firmware v8
+### Android App v1.016 - Pico Firmware v8
 
 #### On-screen measurement configuration
 On-screen measurements can now be hidden and/or configured. Tap an on-screen measurement or the channel badge
@@ -16,7 +16,7 @@ The measurement interval can be set to either the entire sample record or just t
 The snapshot window also displays measurements not available as on-screen measurements such as Mean, AC RMS and DC RMS.
 
 To open the Measurement Snapshot window tap the channel badge at the bottom of the screen and select _Measurements_ and then
-_Snapshot_. The Measurement Snapshot can also be access by tapping and holding an on-screen measurement (or in Logic Analyzer
+_Snapshot_. The Measurement Snapshot can also be accessed by tapping and holding an on-screen measurement (or in Logic Analyzer
 mode tapping and holding the far left of the screen).
 
 #### Other changes
