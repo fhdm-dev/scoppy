@@ -7,7 +7,7 @@ title: Installation
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
 ### 2. Install the Firmware
-Download the [pico-scoppy-v7.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v7.uf2) file to your computer.
+Download the [pico-scoppy-v8.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v8.uf2) file to your computer.
 Alternatively you can [build the uf2 file](https://github.com/fhdm-dev/scoppy-pico) from the sources.    
 
 Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a micro USB cable. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   

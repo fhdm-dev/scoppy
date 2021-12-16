@@ -1,0 +1,44 @@
+---
+title: Release Notes
+---
+
+### Android App v1.014 - Pico Firmware v8
+
+#### On-screen measurement configuration
+On-screen measurements can now be hidden and/or configured. Tap an on-screen measurement or the channel badge
+at the bottom of the screen to access the on-screen measurement configuration window.
+
+In Logic Analyzer mode tapping the far left of the screen will open the on-screen measurement configuration window.
+
+#### Measurements snapshot
+There is now a Measurement Snapshot window which will display all available measurements at a single point in time.
+The measurement interval can be set to either the entire sample record or just the samples displayed on the screen.
+The snapshot window also displays measurements not available as on-screen measurements such as Mean, AC RMS and DC RMS.
+
+To open the Measurement Snapshot window tap the channel badge at the bottom of the screen and select _Measurements_ and then
+_Snapshot_. The Measurement Snapshot can also be access by tapping and holding an on-screen measurement (or in Logic Analyzer
+mode tapping and holding the far left of the screen).
+
+#### Other changes
+* Channels can now be quickly switched on/off by tapping and holding the channel badge at the bottom of the screen
+* The captured samples can now be exported as a CSV file (tap the Export button on the Menu panel)
+* The app now has more sane behaviour when multiple USB devices are attached via a hub. To have Scoppy ignore a device just
+tap Deny when Android asks your permission.
+* Fixed some bugs that sometimes caused the firmware to stop communicating with the app when the app was re-opened
+
+### Android App v1.014 - Pico Firmware v7
+* Falling edge trigger. Available in both Oscilloscope and Logic Analyzer modes
+* More signal generator options. From the main menu panel tap the new Signal Generator button
+* Run/Stop and Single buttons are now also on the main menu panel
+* Tapping the sample record summary at the top of the screen will now move the horz. position
+* Tapping the sample rate at the top-left of the screen allows you to choose a fixed sample rate
+* It is now possible to select the trigger position within the sample record. Previously it was always in the center
+
+### Android App v1.013 - Pico Firmware v6
+* Touch gestures
+    *   Swipe to change horz. and vert. position
+    *   Pinch open/closed to change horz. and vert. scale
+    *   Change selected channel by tapping GND indicator
+* Cursors
+* Increased logic analyzer max. sample rate to 25MS/s
+* Improved logic analyzer triggering at higher sample rates

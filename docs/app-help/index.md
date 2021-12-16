@@ -13,9 +13,11 @@ title: App Help Index
 * [Trigger - Logic Analyzer Mode](Trigger-Logic-Analyzer)
 * [Channels - Oscilloscope Mode](Channels-Oscilloscope)
 * [Channels - Logic Analyzer Mode](Channels-Logic-Analyzer)
+* [Measurements](Measurements)
 * [Cursors](Cursors)
 * [Sample Rate - Auto vs Fixed](Sample-Rate)
 * [Signal Generator](Signal-Generator)
+* [Release Notes](../wiki/ReleaseNotes)
 
 <br>
 [All Documentation](../TOC)    

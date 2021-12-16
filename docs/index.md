@@ -22,3 +22,8 @@ title: Scoppy
 
 [Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
 * The Scoppy GitHub repository.
+
+[Scoppy Experiments, Examples and Tutorials](https://github.com/fhdm-dev/scoppy-experiments)
+* Experiments, tutorials and examples using Scoppy
+
+[Release Notes](./wiki/ReleaseNotes)

@@ -2,7 +2,8 @@
 title: Channels - Logic Analyzer
 ---
 
-Tap the channel badges at the bottom of the screen to enable/disable each channel.
+Tap-and-hold the channel badges at the bottom of the screen to enable/disable each channel.
+Alternatively, tap the channel badge and select _Switch On(Off)_.
 
 <br>
 [App Help](.)     
