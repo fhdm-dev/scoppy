@@ -2,6 +2,24 @@
 title: Release Notes
 ---
 
+### Android App v1.017 - Pico Firmware v9
+
+#### XY Mode
+To enable XY mode, tap Menu and then Display. The XY plot can be displayed on its own or together with the normal YT grid.
+
+#### Other improvements
+- In the signal generator screen you can now specify an exact frequency value. Tap the frequency dropdown menu
+and then tap Custom. Enter the frequency.
+- The app will now show a warning if you've set the Time/Div to a value that would cause the waveform to not be visible
+- Voltage ranges can be compiled in the firmware and uploaded to the app automatically. Useful if you use the same Android Device with different front ends.
+
+#### Bugs fixed
+- Y cursor info showing incorrect value
+- Not enough precision in trigger level dialog
+- Tapping Help in the on-screen measurements dialog would actually change the settings
+- App would sometimes crash when connecting/disconnecting the Pico
+- The disabled channel would be used for the horizontal cursor info
+
 ### Android App v1.016 - Pico Firmware v8
 
 #### On-screen measurement configuration

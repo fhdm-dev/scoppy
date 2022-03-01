@@ -60,5 +60,6 @@ exclude:
 #
 #  - index.md
 # - none.markdown
+# If this points to a real page an Index link is inserted at the top of each page
 header_pages:
- - TOC.md
+ - none.md

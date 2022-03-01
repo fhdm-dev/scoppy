@@ -15,6 +15,7 @@ title: App Help Index
 * [Channels - Logic Analyzer Mode](Channels-Logic-Analyzer)
 * [Measurements](Measurements)
 * [Cursors](Cursors)
+* [XY Mode](XY)
 * [Sample Rate - Auto vs Fixed](Sample-Rate)
 * [Signal Generator](Signal-Generator)
 * [Release Notes](../wiki/ReleaseNotes)

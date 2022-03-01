@@ -27,3 +27,5 @@ title: Scoppy
 * Experiments, tutorials and examples using Scoppy
 
 [Release Notes](./wiki/ReleaseNotes)
+
+[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
