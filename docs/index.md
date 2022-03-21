@@ -26,6 +26,6 @@ title: Scoppy
 [Scoppy Experiments, Examples and Tutorials](https://github.com/fhdm-dev/scoppy-experiments)
 * Experiments, tutorials and examples using Scoppy
 
-[Release Notes](./wiki/ReleaseNotes)
+[Release Notes](https://oscilloscope.fhdm.xyz/wiki/ReleaseNotes)
 
 [Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
