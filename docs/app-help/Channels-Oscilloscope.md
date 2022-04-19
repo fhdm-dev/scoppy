@@ -11,6 +11,8 @@ If the Oscilloscope front end can measure voltage ranges different to the defaul
 will need to configure the channel as described [here](../wiki/Analog-Front-End) in order for Scoppy to display the correct voltage
 values.
 
+The probe attenuation value can also be configured. Tap the channel badge and select Settings and then Probe from the menu.
+
 <br>
 [App Help](.)     
 [All Documentation](../TOC)         

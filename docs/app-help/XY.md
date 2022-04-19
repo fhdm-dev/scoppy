@@ -1,5 +1,5 @@
 ---
-title: XY Mode
+title: XY Display
 ---
 
 The XY display plots the values of CH1 against CH2. This is different to the normal (YT) mode where voltage is plotted as a

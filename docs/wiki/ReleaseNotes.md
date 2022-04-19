@@ -2,6 +2,26 @@
 title: Release Notes
 ---
 
+### Android App v1.018 - Pico Firmware v10
+
+#### New Features and changes
+__FFT__   
+Tap the DISPLAY button to show the FFT window. See the [FFT Help](../app-help/FFT) for more information.
+
+__Probe Settings__   
+The probe attenuation can now be set for each channel. Tap the channel badge at the bottom of the screen, then tap Settings and then Probe. When a setting other then 1X is selected, the current probe setting will be displayed in the channel badge.
+
+__Cursor button__   
+The cursor button has been moved to the controls panel. This is because there are now separate cursors for the normal waveform display (YT) and
+the FFT display.
+
+#### Bugs Fixed
+* App would not remember some channel settings after restart
+* Horizontal cursors not always visible when first enabled
+* Voltage ranges uploaded from firmware not always recognized
+* The auto voltage range feature would stop working after app restart
+* App would exit when device back button was used to navigate to the home screen
+
 ### Android App v1.017 - Pico Firmware v9
 
 #### XY Mode
