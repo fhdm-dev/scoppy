@@ -11,7 +11,7 @@ The aim of the Scoppy project is to give electronics novices and hobbyists acces
 * A Rasperry Pi Pico board
 
 > Important    
-> Please use the latest versions of the App (v1.017) and Firmware (v10). Older versions of the firmware may not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.018) and Firmware (v10). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
 ## Quick Start
@@ -21,7 +21,7 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 
 ### 2. Install the firmware onto your Pico
 
-Download the firmware onto your computer. It is here: [pico-scoppy-v10.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v9.uf2). Alternatively you can [build the uf2 file](https://github.com/fhdm-dev/scoppy-pico) from the sources.
+Download the firmware onto your computer. It is here: [pico-scoppy-v10.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v10.uf2). Alternatively you can [build the uf2 file](https://github.com/fhdm-dev/scoppy-pico) from the sources.
 
 Press the bootsel button on your Pico and connect it to your computer. Copy the uf2 file onto your Pico. The onboard LED should start blinking.
 
