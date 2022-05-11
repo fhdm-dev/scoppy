@@ -103,4 +103,13 @@ Scoppy app on a Nokia 2.1
 ![Scoppy Logic Analyser](images/logic-analyzer-demo.jpg)
 Logic Analyzer mode
 
+![Scoppy FFT](images/screenshot_fft-square.jpg)
+FFT of a square wave
+
+![Scoppy FFT Both Channels](images/screenshot_fft-2ch.jpg)
+FFT showing both channels and the YT (scope) window
+
+![Scoppy XY + YT](images/screenshot_xy-yt.jpg)
+X-Y and YT displayed simultaneously
+
 
