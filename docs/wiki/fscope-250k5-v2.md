@@ -77,6 +77,9 @@ may result in the signal being clipped.
 When the voltage range changes you'll probably see the trace momentarily 'jump'. This is expected.   
    
 The currently selected voltage range can be seen on the channel badge at the bottom of the app screen (a number between 0 and 3). To manually select a voltage range, tap the channel badge and then tap 'Select input voltage range'.   
+   
+The actual values of the voltage ranges are uploaded to the app from the Pico when the board is connected to the Android device.
+If you make changes to the voltage ranges in the app they be lost when the board is next connected. 
 
 #### Signal generator
 
