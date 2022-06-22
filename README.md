@@ -46,6 +46,10 @@ Go to the [Discussions](https://github.com/fhdm-dev/scoppy/discussions) section 
 
 ## Measuring different voltage ranges (oscilloscope mode)
 To remove the 0-3.3V input voltage limitation (and do whatever signal conditioning magic takes your fancy) you’ll need to add an [analog front end](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End). This can be as simple as a voltage divider or as complex as you want it to be. The [Documentation](https://oscilloscope.fhdm.xyz/) contains some [examples](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End-Examples) of simple and cheap AFE designs and you are encouraged to share your own front end designs and ideas with other Scoppiers. Just head to the [forum](https://github.com/fhdm-dev/scoppy/discussions).
+   
+[Here's](https://github.com/fhdm-dev/scoppy/discussions/63) an example of a two channel, super-cheap front end that is easy to build and uses readily available components. 
+
+![Two channel front end](https://user-images.githubusercontent.com/52391579/174912584-056eced0-f1bc-4d36-8f70-f12cc540e6ca.jpg)
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
