@@ -3,7 +3,7 @@
 # Scoppy
 Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download (the [firmware](https://github.com/fhdm-dev/scoppy-pico) is open-source). Installation is super easy and should only take a few minutes.
 
-The aim of the Scoppy project is to give electronics novices and hobbyists access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
+The aim of the Scoppy project is to give electronics novices and hobbyists and STEM students access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
 
 ## What you'll need
 * An Android device that's running Android version 6.0 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do (if you don't see the app when browsing the Play Store then your device probably doesn't support this feature)
@@ -26,7 +26,7 @@ Download the firmware onto your computer. It is here: [pico-scoppy-v10.uf2](http
 Press the bootsel button on your Pico and connect it to your computer. Copy the uf2 file onto your Pico. The onboard LED should start blinking.
 
 ### 3. Connect the Pico to your Phone/Tablet
-Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico.
+Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico. Once connected, Android will probably ask you to allow Scoppy permission to use the USB device.
 
 ### 4. Start Scoppying!
 Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, connect the signal to GPIO27. 
@@ -59,24 +59,27 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 
 
 ## Quirks
-* If the screen turns off or the app is no longer in the foreground the run mode will change to STOPPED (to prevent draining the battery). You will need to tap RUN to restart the scope.
-* Tapping the phone's the back button to get back to your phone/tablet's home screen has the effect of closing the app. Tap the phone's home button instead.
-* The OFF trigger mode prevents all triggering and Scoppy will set the horizonal position so that it is displaying the most recent samples (it normally tries to find a trigger point near the centre of the sample record). This may or may not be useful for viewing very slowly changing signals.
+* If the screen turns off or the app is no longer in the foreground, the run mode will change to STOPPED (to prevent draining the battery). You will need to tap RUN to restart the scope.
+* The OFF trigger mode prevents all triggering and Scoppy will set the horizonal position so that it is displaying the most recent samples (it normally tries to find a trigger point near the centre of the sample record). This in combination with a long Time/Div setting is equivalent to roll mode on many 'scopes. 
 
 ## Troubleshooting
+* If your phone has a Micro-USB connecter then check that the Micro-USB plug of the OTG cable/adapter is plugged into the phone and not into the Pico!
 * If the Pico doesn't seem to be connecting try the following:
     * tap STOP and then RUN
     * OR
     * unplug the USB cable and plug it back in
-* If your phone has a Micro-USB connecter then check that the Micro-USB plug of the OTG cable/adapter is plugged into the phone and not into the Pico.
 * If it's still not working then it's possible that your phone/tablet doesn't support USB OTG. You can test this by attaching a USB thumb drive to the OTG cable/adapter. You should be able to browse the files on the drive.
 * Some diagnostic information is also writtern to the Pico UART on GPIO 0 & 1
 
-## Specifications (oscilloscope)
+## Specifications and features (oscilloscope)
 * Max. Sampling Rate: 500kS/s (shared between channels)
 * Time/Div: 5us - 20secs
 * Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
 * 2 channels
+* Auto and Normal triggering
+* Cursors
+* X-Y Mode
+* FFT
 
 ## Specifications (logic analyzer)
 * Max. Sampling Rate: 25MS/s (per channel)
@@ -87,9 +90,9 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 * When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
 
 ## Links
-* An article on [Hackaday](https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/), including many scathing reviews in the comments section. If you hate Scoppy and/or its developer then this would be a great place to vent your anger!
+* [Demonstration of Scoppy](https://www.youtube.com/watch?v=8ldxmyujHK8&t=4523s) on the DroneBot Workshop channel
 * Review of [Scoppy on YouTube by @Gabinete de Tecnologia](https://youtu.be/qqPxLXTxoTA)
-
+* An article on [Hackaday](https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/), including many scathing reviews in the comments section. If you hate Scoppy and/or its developer then this would be a great place to vent your anger!
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
