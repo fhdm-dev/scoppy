@@ -50,6 +50,12 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 [Here's](https://github.com/fhdm-dev/scoppy/discussions/63) an example of a two channel, super-cheap front end that is easy to build and uses readily available components. 
 
 ![Two channel front end](https://user-images.githubusercontent.com/52391579/174912584-056eced0-f1bc-4d36-8f70-f12cc540e6ca.jpg)
+            
+
+Or for something a bit more fancy, here's a front-end that features multiple voltage ranges per channel, 10X probe compatibility and an input impedance of 1M||22pF. The schematic and PCB design can be found [here at OSHWLab](https://oshwlab.com/fruitloop57/fscope-250k5-v2_copy). The boards can also be purchased at the [FHDM store](https://store.fhdm.xyz/home).
+
+![FScope](https://drive.google.com/uc?export=view&id=10oddvpGA3GUvOC4BjK25yJQDPICNoB4N)
+
 
 ## Tips
 * If the traces or grid lines look too narrow then you can change the width in Settings (tap Menu to see the Settings option)
