@@ -1,17 +1,17 @@
 > If you are looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
 
 # Scoppy
-Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download (the [firmware](https://github.com/fhdm-dev/scoppy-pico) is open-source). Installation is super easy and should only take a few minutes.
+Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico or Pico W. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download. Installation is super easy and should only take a few minutes.
 
 The aim of the Scoppy project is to give electronics novices and hobbyists and STEM students access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
 
 ## What you'll need
 * An Android device that's running Android version 6.0 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do (if you don't see the app when browsing the Play Store then your device probably doesn't support this feature)
 * A USB OTG adapter/cable compatible with your phone/tablet (available for a few dollars)
-* A Rasperry Pi Pico board
+* A Rasperry Pi Pico or Pico W board
 
 > Important    
-> Please use the latest versions of the App (v1.018) and Firmware (v10). Older versions of the firmware may not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.020) and Firmware (v11). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
 ## Quick Start
@@ -21,12 +21,12 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 
 ### 2. Install the firmware onto your Pico
 
-Download the firmware onto your computer. It is here: [pico-scoppy-v10.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v10.uf2). Alternatively you can [build the uf2 file](https://github.com/fhdm-dev/scoppy-pico) from the sources.
-
-Press the bootsel button on your Pico and connect it to your computer. Copy the uf2 file onto your Pico. The onboard LED should start blinking.
+[Download the firmware](https://oscilloscope.fhdm.xyz/wiki/Installation-&-Getting-Started) and copy it to your Pico or Pico W.
 
 ### 3. Connect the Pico to your Phone/Tablet
-Attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico. Once connected, Android will probably ask you to allow Scoppy permission to use the USB device.
+If you have a Pico W and want to connect via WiFi then see [Getting started with the Pico W](https://oscilloscope.fhdm.xyz/wiki/Getting-started-with-the-Pico-W).
+
+To connect via USB attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico. Once connected, Android will probably ask you to allow Scoppy permission to use the USB device.
 
 ### 4. Start Scoppying!
 Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, connect the signal to GPIO27. 
@@ -98,7 +98,7 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
 
 ## Advertising and in-app purchase
-The free (zero cost) version of the app is limited to one channel. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$1 for a yearly subscription or US$2 for a lifetime purchase - exact price depends on your location).
+The free (zero cost) version of the app is limited to one channel and USB. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and WiFi support and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
 
 ## Gallery
 ![Scoppy Oscilloscope App](images/scoppy-v2-running-2ch.jpg)
