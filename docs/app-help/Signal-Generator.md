@@ -26,5 +26,4 @@ See this [All About Circuits](https://www.allaboutcircuits.com/technical-article
 Turns off signal generation.
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

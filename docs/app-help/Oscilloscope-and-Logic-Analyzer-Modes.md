@@ -13,5 +13,4 @@ In Oscilloscope mode, signals are captured on GPIOs 26 & 27.
 In Logic Analyzer mode, signals are captured on GPIOs 6 to 13. 
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

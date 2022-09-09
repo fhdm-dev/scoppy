@@ -2,6 +2,25 @@
 title: Release Notes
 ---
 
+### Android App v1.020 - Pico Firmware v11
+
+#### New Features and changes
+* Wi-Fi support (requires Pico W)
+* Change trigger level by swiping trigger indicator
+* Trigger indicator shows if trigger level is off screen
+* Added binary information (eg. pin assignments, features) that can be read by picotool
+
+### Android App v1.019 - Pico Firmware v10
+
+#### Bugs Fixed
+
+* Cursors button missing in LA mode
+* Swiping left in LA mode not working
+* Ch1 and Ch2 in logic mode not displaying properly
+* X-Y mode not so ugly
+* When a channel is disabled, change the selected and trigger channels to an enalbed channel
+* Fft will display the first enabled channel by default
+
 ### Android App v1.018 - Pico Firmware v10
 
 #### New Features and changes
@@ -82,5 +101,4 @@ tap Deny when Android asks your permission.
 * Improved logic analyzer triggering at higher sample rates
 
 <br>
-### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

@@ -8,5 +8,4 @@ control panel.
 2. There is no trigger level setting.
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

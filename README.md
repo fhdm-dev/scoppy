@@ -3,6 +3,8 @@
 # Scoppy
 Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico or Pico W. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download. Installation is super easy and should only take a few minutes.
 
+The Pico W version allows you to use your phone/tablet as the oscilloscope display without the need for a physical connection between your phone and the Pico W (and the signals being measured).
+
 The aim of the Scoppy project is to give electronics novices and hobbyists and STEM students access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
 
 ## What you'll need
@@ -14,32 +16,12 @@ The aim of the Scoppy project is to give electronics novices and hobbyists and S
 > Please use the latest versions of the App (v1.020) and Firmware (v11). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
-## Quick Start
+## Getting started
 
-### 1. Install the Scoppy Android App
-Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
+See the [Installation and Getting Started](https://oscilloscope.fhdm.xyz/wiki/Installation-&-Getting-Started) guide.
 
-### 2. Install the firmware onto your Pico
-
-[Download the firmware](https://oscilloscope.fhdm.xyz/wiki/Installation-&-Getting-Started) and copy it to your Pico or Pico W.
-
-### 3. Connect the Pico to your Phone/Tablet
-If you have a Pico W and want to connect via WiFi then see [Getting started with the Pico W](https://oscilloscope.fhdm.xyz/wiki/Getting-started-with-the-Pico-W).
-
-To connect via USB attach the OTG adapter/cable to the USB input of the Android device. The other end attaches to the USB cable you have connected to your Pico. Once connected, Android will probably ask you to allow Scoppy permission to use the USB device.
-
-### 4. Start Scoppying!
-Attach the +ve output of your signal source to GPIO26 of the Pico and the ground to gnd. This will allow you to measure signals between 0V and 3.3V. Of course the signal voltage should be within the allowed range of the ADC pins of the RP2040. See section 5.2.3 of the RP2040 Datasheet for more information. For Channel 2, connect the signal to GPIO27. 
-
-> You might want to insert a current limiting resistor (eg 100R) between the signal source and the pico ADC (GPIO26/27) to limit the current through the Pico ESD diodes in case you accidentally apply a voltage higher than 3.3V.
-
-If you don't have a suitable signal source you can view the test signal on GPIO 22 by connecting it directly to the ADC pins (GPIO 26 and 27). GPIO 22 is a 1kHz square wave with a duty cycle of 50%.
-
-## Logic Analyzer
-To use Scoppy as a logic analyzer tap the Menu button and then the Mode button and tap 'Logic Analyzer'. The logic analyzer inputs are GPIOs 6 to 13. Please remember to only apply voltages of between 0 and 3.3V to these pins.
-
-## Detailed installation and usage instructions
-See the [documentation](https://oscilloscope.fhdm.xyz/)
+## Want more information?
+Start at the [documentation](https://oscilloscope.fhdm.xyz/) index.
 
 ## Discussions/Forum
 Go to the [Discussions](https://github.com/fhdm-dev/scoppy/discussions) section of this repository to well ... discuss Scoppy. For example, ask and answer questions, give feedback, request features, report bugs, share your front-end designs or comment on just about anything related to Scoppy, Oscilloscopes, Logic Analyzers or electronics in general.
@@ -86,6 +68,7 @@ Or for something a bit more fancy, here's a front-end that features multiple vol
 * Cursors
 * X-Y Mode
 * FFT
+* Wireless connectivity
 
 ## Specifications (logic analyzer)
 * Max. Sampling Rate: 25MS/s (per channel)

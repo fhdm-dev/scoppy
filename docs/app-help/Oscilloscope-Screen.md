@@ -77,5 +77,4 @@ Indicated if the scope is in Run mode, Stopped or performing a single capture.
 The width of these can be configured via Settings (Tap the Menu button to get to Settings).
     
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

@@ -43,5 +43,4 @@ Simple AFE using LM358 (signal source disconnected)
 Alternative method of changing the horizontal timebase
 
 <br>
-### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

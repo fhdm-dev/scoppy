@@ -73,11 +73,4 @@ Once you’ve confirmed that all of the op-amps have been wired correctly you ca
 
 
 <br>
-### See Also
-{% include scoppy-links.md %}
-
-
-
-
-
-
+{% include see-also.md %}

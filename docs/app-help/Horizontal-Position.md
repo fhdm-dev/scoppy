@@ -34,5 +34,4 @@ This will set the POSITION to its default value (0 divs).
 
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

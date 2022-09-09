@@ -117,5 +117,4 @@ H4 - The bottom row is not actually necessary and will be removed in the next re
 The holes at the corners of the board are 4mm. This might change depending on what type of 'feet' I am able to source.
 
 <br>
-### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

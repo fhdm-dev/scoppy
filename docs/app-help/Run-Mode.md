@@ -33,5 +33,4 @@ when you want to trigger on a single event such as turning on a switch.
 When doing a single capture the currently selected trigger mode will be used (ie. Off, Auto or Normal). 
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

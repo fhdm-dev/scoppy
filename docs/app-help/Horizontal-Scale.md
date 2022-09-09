@@ -43,5 +43,4 @@ This allows you to enter an exact value.
 This will set the TIME/DIV to its default value (10ms/div).
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

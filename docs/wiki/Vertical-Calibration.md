@@ -29,5 +29,4 @@ Go back to Step 1 to check that the 0 voltage level hasn’t changed. If it has 
 
 
 <br>
-### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

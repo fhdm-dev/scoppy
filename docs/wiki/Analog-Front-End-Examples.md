@@ -23,5 +23,4 @@ Two-channels with over-voltage protection. Super cheap and easy to build.
 (Our recommended design)
 
 <br>
-### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

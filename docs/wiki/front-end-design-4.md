@@ -35,10 +35,4 @@ Higher sensitivity setting
 
 
 <br>
-### See Also
-{% include scoppy-links.md %}
-
-
-
-
-
+{% include see-also.md %}

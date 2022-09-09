@@ -53,11 +53,4 @@ To fix this, follow the instructions for [vertical calibration](./Vertical-Calib
 
 
 <br>
-### See Also
-{% include scoppy-links.md %}
-
-
-
-
-
-
+{% include see-also.md %}

@@ -38,5 +38,4 @@ This allows you to enter an exact value for the selected channel.
 This will set the VOLTS/DIV for the selected channel to its default value (the default value depends on the input voltage range setting for the channel).
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}

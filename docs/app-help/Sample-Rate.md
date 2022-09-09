@@ -17,5 +17,4 @@ be different to the selected fixed sample rate if the run mode is STOPPED.
 ![Sample rate menu](images/sample-rate-menu.jpg)
 
 <br>
-#### See Also
-{% include scoppy-links.md %}
+{% include see-also.md %}
