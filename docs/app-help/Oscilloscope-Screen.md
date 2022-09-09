@@ -76,8 +76,6 @@ Indicated if the scope is in Run mode, Stopped or performing a single capture.
 **Grid Lines and Waveform Traces**   
 The width of these can be configured via Settings (Tap the Menu button to get to Settings).
     
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

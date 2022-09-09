@@ -21,3 +21,7 @@ Single-channel, multiple voltage ranges and over-voltage protection
 [Design 5](https://github.com/fhdm-dev/scoppy/discussions/63)   
 Two-channels with over-voltage protection. Super cheap and easy to build.
 (Our recommended design)
+
+<br>
+### See Also
+{% include scoppy-links.md %}

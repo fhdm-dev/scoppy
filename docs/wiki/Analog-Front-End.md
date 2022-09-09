@@ -25,3 +25,7 @@ If you decide to add an analog front-end, the Scoppy app needs to be configured 
 | HIGH | HIGH | 3 |
 
 > Please note these are the pin assignements for version 4 and higher of the firmware. Please upgrade if you are using older firmware.
+
+<br>
+### See Also
+{% include scoppy-links.md %}

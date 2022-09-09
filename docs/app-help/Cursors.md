@@ -17,6 +17,5 @@ TIP: To get the cursors back on the visible part of the screen just disable and 
 To move a cursor, tap-and-hold the cursor until it changes color from red to orange. Keeping your finger on the screen, move the cursor to the desired position.
 
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

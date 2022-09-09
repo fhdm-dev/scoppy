@@ -17,3 +17,6 @@ The probe attenuation value can also be configured. Tap the channel badge and se
 [App Help](.)     
 [All Documentation](../TOC)         
 [Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+<br>
+### See Also
+{% include scoppy-links.md %}

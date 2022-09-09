@@ -1,8 +1,6 @@
-<br/>
-<br/>
-<br/>
-
-#### See also
-See [Using the App](../app-help)
+<br>
+<hr>
+#### See Also
+{% include scoppy-links.md %}
 
 

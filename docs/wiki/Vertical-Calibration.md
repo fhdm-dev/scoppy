@@ -28,3 +28,6 @@ Enter the new values and tap OK. Hopefully Vmax will show the correct voltage (i
 Go back to Step 1 to check that the 0 voltage level hasn’t changed. If it has then keep repeating both until you’re happy with the result.
 
 
+<br>
+### See Also
+{% include scoppy-links.md %}

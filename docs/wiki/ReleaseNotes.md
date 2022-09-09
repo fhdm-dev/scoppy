@@ -80,3 +80,7 @@ tap Deny when Android asks your permission.
 * Cursors
 * Increased logic analyzer max. sample rate to 25MS/s
 * Improved logic analyzer triggering at higher sample rates
+
+<br>
+### See Also
+{% include scoppy-links.md %}

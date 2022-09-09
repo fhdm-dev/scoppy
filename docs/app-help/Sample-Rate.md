@@ -17,6 +17,5 @@ be different to the selected fixed sample rate if the run mode is STOPPED.
 ![Sample rate menu](images/sample-rate-menu.jpg)
 
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

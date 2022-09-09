@@ -75,8 +75,6 @@ the popup menu.
 
 When any value other than 50% is selected for the pre-trigger samples, the value is displayed in the TRIG badge.
 
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

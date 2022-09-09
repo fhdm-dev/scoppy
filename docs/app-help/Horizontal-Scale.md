@@ -42,8 +42,6 @@ This allows you to enter an exact value.
 
 This will set the TIME/DIV to its default value (10ms/div).
 
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

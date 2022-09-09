@@ -29,7 +29,7 @@ The onboard LED should start blinking.
 ## Connections
 ### 1. Connect the Pico or Pico W to your Phone/Tablet
 
-If you have a Pico W, then please see [connecting the Pico W](./Getting-started-with-the-Pico-W). Once connected, continue to Step 2 below.
+If you have a Pico W, then please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W). Once connected, continue to Step 2 below.
 
 If you have a Pico, attach the small end of the OTG adapter cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the Pico!). Uplug the USB cable from your computer (the one used in step 2) and plug it into the other end of the OTG adapter/cable.
 
@@ -59,3 +59,6 @@ To use Scoppy as a logic analyzer tap the Menu button and then the Mode button. 
 See [Using the App](../app-help)
 
 
+<br>
+### See Also
+{% include scoppy-links.md %}

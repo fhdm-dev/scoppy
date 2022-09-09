@@ -33,6 +33,5 @@ when you want to trigger on a single event such as turning on a switch.
 When doing a single capture the currently selected trigger mode will be used (ie. Off, Auto or Normal). 
 
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

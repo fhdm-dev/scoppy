@@ -19,8 +19,10 @@ title: App Help Index
 * [FFT Display](FFT)
 * [Sample Rate - Auto vs Fixed](Sample-Rate)
 * [Signal Generator](Signal-Generator)
+* [Wi-Fi Connection Settings](../app-help/WiFi-Connection-Settings)
+* [Scoppy Firmware Settings](../app-help/Firmware-Settings)
 * [Release Notes](../wiki/ReleaseNotes)
 
 <br>
-[All Documentation](../TOC)    
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+{% include scoppy-links.md %}
+

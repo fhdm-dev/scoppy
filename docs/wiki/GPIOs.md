@@ -14,3 +14,7 @@ title: Pico GPIOs
 | 27    | Input               | CH2 ADC input         | Connect the +ve output of your analog frontend (or signal source) here. Connect the ground of the analog frontend (or signal source) to GND.
 
 > Please note that the test signal and voltage range GPIO assignments changed in version 4 of the firmware (previously they were GPIO 16 and 22 for the test signal, 3 and 4 for the channel 1 voltage range and 6 & 7 for the channel 2 voltage range).
+
+<br>
+### See Also
+{% include scoppy-links.md %}

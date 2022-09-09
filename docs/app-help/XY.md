@@ -41,8 +41,5 @@ A maximum of 1000 samples are displayed in the XY plot.
 
 The points in the XY plot can be displayed as either unconnected dots or as lines connecting adjacent (in time) values.
 
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+{% include see-also.md %}

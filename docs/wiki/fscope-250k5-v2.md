@@ -117,6 +117,5 @@ H4 - The bottom row is not actually necessary and will be removed in the next re
 The holes at the corners of the board are 4mm. This might change depending on what type of 'feet' I am able to source.
 
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+### See Also
+{% include scoppy-links.md %}

@@ -7,8 +7,6 @@ Triggering in Logical Analyzer mode is similar to [triggering in Oscilloscope mo
 control panel.
 2. There is no trigger level setting.
 
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

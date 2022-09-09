@@ -78,7 +78,5 @@ Peak amplitude (ie. 50% of Vpp) with respect to 1V (linear scale).
 ### Channels
 The FFT can display either CH1, CH2 or both. The selected channel(s) must be switched on. If not switched on, the FFT screen will not display the trace(s).
 
-<br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

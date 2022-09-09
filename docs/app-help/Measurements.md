@@ -71,6 +71,5 @@ The duty cycle is the ratio of the positive samples to all samples in the measur
 A positive sample is one whose voltage level is higher than the halfway point between Vmin and Vmax.
 
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

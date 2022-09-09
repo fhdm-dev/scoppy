@@ -28,4 +28,6 @@ title: Scoppy
 
 [Release Notes](./wiki/ReleaseNotes)
 
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+<br>
+### See Also
+{% include scoppy-links.md %}

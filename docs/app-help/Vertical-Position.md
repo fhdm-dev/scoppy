@@ -37,8 +37,6 @@ This allows you to enter an exact value for the vertical position of the selecte
 
 This will set the vertical POSITION of the selected channel to its default value (0V).
 
-
 <br>
-[App Help](.)     
-[All Documentation](../TOC)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}

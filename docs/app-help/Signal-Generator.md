@@ -26,6 +26,5 @@ See this [All About Circuits](https://www.allaboutcircuits.com/technical-article
 Turns off signal generation.
 
 <br>
-[App Help](.)     
-[All Documentation](../)         
-[Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
+#### See Also
+{% include scoppy-links.md %}
