@@ -1,9 +1,9 @@
 > If you are looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
 
 # Scoppy
-Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico or Pico W. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download. Installation is super easy and should only take a few minutes.
+Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico or Pico W. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download<sup>1</sup>. Installation is super easy and should only take a few minutes.
 
-The Pico W version allows you to use your phone/tablet as the oscilloscope display without the need for a physical connection between your phone and the Pico W (and the signals being measured).
+The Pico W version allows you to use your phone/tablet as the oscilloscope display without the need for a physical connection between your phone and the Pico W.
 
 The aim of the Scoppy project is to give electronics novices and hobbyists and STEM students access to an ultra-ultra cheap oscilloscope that is useful for viewing low voltage, low frequency signals. Scoppy is also a logic analyzer with a sample rate of 25MS/s.
 
@@ -86,8 +86,8 @@ Or for something a bit more fancy, here's a front-end that features multiple vol
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
 
-## Advertising and in-app purchase
-The free (zero cost) version of the app is limited to one channel and USB. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and WiFi support and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
+## <sup>1</sup>Advertising and in-app purchase
+The free (zero cost) version of the app is limited to one channel and USB. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and wireless support and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
 
 ## Gallery
 ![Scoppy Oscilloscope App](images/scoppy-v2-running-2ch.jpg)
