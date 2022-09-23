@@ -2,7 +2,7 @@
 title: FScope-250k5
 ---
 
-The _FScope-250k5_ is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico or Pico W and the Scoppy Android app.
+The [_FScope-250k5_](https://store.fhdm.xyz/fscope-250k5) is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico or Pico W and the Scoppy Android app.
 
 ### Features and Specifications
 - Input impedance: 1M Ohm / 22pF

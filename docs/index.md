@@ -19,6 +19,7 @@ title: Scoppy
 
 [Analog Front-End](./wiki/Analog-Front-End)   
 * Design and build an Analog front-end to your Scoppy Oscilloscope so that you can measure different voltage ranges (ie. different to the 0-3.3V range of the RPI Pico ADC inputs).
+* FScope-250k5 analog front end [assembly and usage instructions](wiki/fscope-250k5-v2) 
 
 [Scoppy on GitHub](https://github.com/fhdm-dev/scoppy)
 * The Scoppy GitHub repository.
