@@ -1,8 +1,8 @@
 ---
-title: FScope 250k5-V2
+title: FScope-250k5
 ---
 
-The _FScope 250k5-V2_ is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico and Scoppy Android app.
+The _FScope-250k5_ is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico or Pico W and the Scoppy Android app.
 
 ### Features and Specifications
 - Input impedance: 1M Ohm / 22pF
@@ -18,7 +18,7 @@ The _FScope 250k5-V2_ is a 2 channel oscilloscope analog front end for use with 
 ### Assembly
 
 You will need to supply:
-- One Raspberry Pi Pico
+- One Raspberry Pi Pico or Pico W
 - 7 pairs of 0.1" male headers (or 6 pairs and 2 compatible BNC connectors)
 - If the Pico is not to be soldered directly to the board (ie. it will be removable) then 
 2 sets of 20 0.1" pin headers are also required.
@@ -38,9 +38,8 @@ You will need to supply:
 
 #### 4. Signal Generator output and low-pass filter
 
-- Solder 2 headers to the holes labeled 'SIG1' at H12.
-- Solder 4 headers to the holes at H4.
-- Install a jumper (shunt) horizontally on H4.  Installing the jumper on the top row will feed the signal through the low pass filter. Installing the jumper on the bottom row will give direct access to the signal.   
+- Solder 2 headers to the holes labeled 'SIG' (or 'SIG1') at H12.
+- Solder headers to the holes at H4.
 
 #### 5. Raspberry PI Pico
 
