@@ -52,14 +52,22 @@ The Pico can be soldered directly to the board or via headers so that it can be 
 
 ### Firmware Installation
 
-Download [fscope-250k5-v2-20220612.uf2](https://fhdm-dev.github.io/downloads/fscope-250k5-v2-20220612.uf2) and copy it to your Raspberry Pi Pico
+Download and install the Scoppy FScope firmware. Instructions are on the [Installation & Getting Started](../wiki/Installation-&-Getting-Started) page.
+
+The firmware file for the Pico is named scoppy-pico-fscope-250k5-vNN.uf2 and the file for the Pico W is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
 
 ### Trimmer capacitor adjustment
 Feed a 1kHz square wave into the CH1 input (using jumper wires or 1X probes - do NOT use 10X probes) and then adjust the trimmer capacitor (C15) until the displayed signal in the Scoppy app looks square. You'll need a small screwdriver to do the adjustment. Screwdrivers like those supplied with oscilloscope probes should work.
 
 You can use the Scoppy signal generator to generate the 1kHz square wave as follows:
+#### If you have Rev. 2 of the FScope board (see the back of the board for the Revision number):
 1. Connect the two bottom pins on H4 with a jumper. If there is a jumper on the top row then remove that.
 2. Connect the lower SIG1 pin (DIRECT) on H2 to CH1 with a jumper wire. 
+3. You should see a square wave in the Scoppy app. Ensure the volts/div for CH1 is greater than 600mV (input voltage range 0) otherwise the signal might get clipped.
+
+#### If you have Rev. 3 or later of the FScope board:
+1. If there is a jumper on H4 then remove that.
+2. Connect the lower SIG pin (DIRECT) on H2 to CH1 with a jumper wire. 
 3. You should see a square wave in the Scoppy app. Ensure the volts/div for CH1 is greater than 600mV (input voltage range 0) otherwise the signal might get clipped.
    
 > See below for more information about the signal generator pads on the board.
@@ -81,13 +89,21 @@ The currently selected voltage range can be seen on the channel badge at the bot
 The actual values of the voltage ranges are uploaded to the app from the Pico when the board is connected to the Android device.
 If you make changes to the voltage ranges in the app they be lost when the board is next connected. 
 
-#### Signal generator
+#### Signal generator (the following applies to Rev. 2 of the FScope board - see the back of the board for the revision number)
 
 The output from the Scoppy signal generator is accessed via the two SIG1 pins at H12 on the board.
    
 The upper pin (LP) is used when you want the signal to be fed through the low-pass RC filter (eg. when 'Sine Wave (PWM)' is selected as the signal type in the Scoppy app). When using the SIG1 LP pin, the top two pins of H4 need to be connected with a jumper.
 
-The lower SIG1 pin (DIRECT) is used for direct access to the signal generator output.  When using the SIG1 DIRECT pin, the lower two pins of H4 need to be connected with a jumper. Note: if the upper 2 pins of H4 are connected this will affect the output of the signal generator. 
+The lower SIG1 pin (DIRECT) is used for direct access to the signal generator output.  When using the SIG1 DIRECT pin, the lower two pins of H4 need to be connected with a jumper. Note: if the upper 2 pins of H4 are connected this will affect the output of the signal generator and so the jumper on these pins should be removed when using the SIG1 DIRECT pin. 
+
+#### Signal generator (the following applies to Rev. 3 and higher of the FScope board - see the back of the board for the revision number)
+ 
+The output from the Scoppy signal generator is accessed via the two SIG pins at H12 on the board.
+   
+The upper pin (LP) is used when you want the signal to be fed through the low-pass RC filter (eg. when 'Sine Wave (PWM)' is selected as the signal type in the Scoppy app). When using the SIG LP pin, the two pins of H4 need to be connected with a jumper.
+
+The lower SIG pin (DIRECT) is used for direct access to the signal generator output. Note: If the 2 pins of H4 are connected this will affect the output of the signal generator and so the jumper on these pins should be removed when using the SIG DIRECT pin.
 
 #### AC/DC Coupling
 
@@ -108,13 +124,19 @@ The frequency compensation of 10X probes will need to be adjusted to match in th
 
 H9, H10 - these are tiny prototyping areas.
 
-H7, C28 and H6 - for a second signal generator (not implemented) - these will probably be removed in the next revision of the board.
+##### Rev 2. only
 
-CN1 and U7 - For attaching an IDC connector and 5V->3.3V level shifter (SN74CB3T3245DWR). Allows the Scoppy logic analyzer to be used with 5V circuits. This may be removed in future revisions of the the board.
+H7, C28 and H6 - for a second signal generator (not implemented) - these will be removed in the next revision of the board.
+
+CN1 and U7 - For attaching an IDC connector and 5V->3.3V level shifter (SN74CB3T3245DWR). Allows the Scoppy logic analyzer to be used with 5V circuits. This will be removed in future revisions of the the board.
 
 H4 - The bottom row is not actually necessary and will be removed in the next revision of the board.
 
-The holes at the corners of the board are 4mm. This might change depending on what type of 'feet' I am able to source.
+The holes at the corners of the board are 4mm (160 mil).
+
+##### Rev 3. and later
+
+The holes at the corners of the board are 3.3mm (130 mil).
 
 <br>
 {% include see-also.md %}
