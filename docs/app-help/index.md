@@ -21,6 +21,7 @@ title: App Help Index
 * [Signal Generator](Signal-Generator)
 * [Wi-Fi Connection Settings](../app-help/WiFi-Connection-Settings)
 * [Scoppy Firmware Settings](../app-help/Firmware-Settings)
+* [Voltage Ranges](../app-help/Voltage-Ranges)
 * [Release Notes](../wiki/ReleaseNotes)
 
 <br>

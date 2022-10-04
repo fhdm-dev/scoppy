@@ -11,6 +11,13 @@ title: Scoppy
 [Installation & Getting Started](./wiki/Installation-&-Getting-Started)   
 * Instructions for installing the Android app and Pico firmware, connecting the Pico to your Android device and connecting the Scoppy oscilloscope to your signal source
 
+[Wi-Fi](../wiki/Getting-started-with-the-Pico-W)
+* [Getting started with Scoppy and the Pico W](../wiki/Getting-started-with-the-Pico-W)
+* [Wi-Fi Troubleshooting](../wiki/WiFi-Troubleshooting)
+* [Wi-Fi How-To and FAQ](../wiki/WiFi-How-To)
+* [Wi-Fi Connection Settings](../app-help/WiFi-Connection-Settings)
+* [Scoppy Firmware Settings](../app-help/Firmware-Settings)
+
 [Using the app](./app-help)  
 * How to use the Scoppy Android app
 

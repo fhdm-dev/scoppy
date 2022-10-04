@@ -88,7 +88,8 @@ The currently selected voltage range can be seen on the channel badge at the bot
 The actual values of the voltage ranges are uploaded to the app from the Pico when the board is connected to the Android device.
 If you make changes to the voltage ranges in the app they be lost when the board is next connected. 
 
-#### Signal generator (the following applies to Rev. 2 of the FScope board - see the back of the board for the revision number)
+#### Signal generator (Rev 2)
+__(the following applies to Rev. 2 of the FScope board - see the back of the board for the revision number)__
 
 The output from the Scoppy signal generator is accessed via the two SIG1 pins at H12 on the board.
    
@@ -96,7 +97,8 @@ The upper pin (LP) is used when you want the signal to be fed through the low-pa
 
 The lower SIG1 pin (DIRECT) is used for direct access to the signal generator output.  When using the SIG1 DIRECT pin, the lower two pins of H4 need to be connected with a jumper. Note: if the upper 2 pins of H4 are connected this will affect the output of the signal generator and so the jumper on these pins should be removed when using the SIG1 DIRECT pin. 
 
-#### Signal generator (the following applies to Rev. 3 and higher of the FScope board - see the back of the board for the revision number)
+#### Signal generator  (Rev 3+)
+__(the following applies to Rev. 3 and higher of the FScope board - see the back of the board for the revision number)__
  
 The output from the Scoppy signal generator is accessed via the two SIG pins at H12 on the board.
    
@@ -121,9 +123,9 @@ The frequency compensation of 10X probes will need to be adjusted to match in th
 
 #### Miscellaneous
 
-H9, H10 - these are tiny prototyping areas.
+H9, H10 - these are tiny prototyping areas. One hole is connected to GND. The others are not connected to anything.
 
-##### Rev 2. only
+__Rev 2. only__
 
 H7, C28 and H6 - for a second signal generator (not implemented) - these will be removed in the next revision of the board.
 
@@ -133,7 +135,7 @@ H4 - The bottom row is not actually necessary and will be removed in the next re
 
 The holes at the corners of the board are 4mm (160 mil).
 
-##### Rev 3. and later
+__Rev 3. and later__
 
 The holes at the corners of the board are 3.3mm (130 mil).
 
