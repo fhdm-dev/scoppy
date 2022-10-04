@@ -47,7 +47,12 @@ The Pico can be soldered directly to the board or via headers so that it can be 
 
 <br>
 
-![fscope 250k5 v2 assembled](assets/img/fscope250k5-v2/fscope-250k5-v2-assembled.jpg)
+<center>
+<figure>
+    <img src="assets/img/fscope250k5-v2/fscope-250k5-v2-assembled.jpg" alt="fscope assembled"/>
+    <figcaption>Your board may look slightly different to this - depending on the revision</figcaption>
+</figure>
+</center>
 
 ### Firmware Installation
 
