@@ -30,7 +30,8 @@ You will need to supply:
 
 #### 2. Input Connectors
 
-- Solder pairs of 0.1" male headers to each of CH1/GND and CH2/GND (these can be found at the bottom of the board).
+- Solder pairs of 0.1" male headers to each of CH1/GND and CH2/GND (these can be found at the bottom of the board) and/or solder compatible BNC
+connectors to BNC CH1 and BNC CH2.
 
 #### 3. AC/DC Coupling pins
 
@@ -38,21 +39,19 @@ You will need to supply:
 
 #### 4. Signal Generator output and low-pass filter
 
-- Solder 2 headers to the holes labeled 'SIG' (or 'SIG1') at H12.
+- Solder headers to the holes labeled 'SIG' (or 'SIG1') at H12 and optionally to the GND hole.
 - Solder headers to the holes at H4.
 
-#### 5. Raspberry PI Pico
+#### 5. Raspberry PI Pico (or Pico W)
 
 The Pico can be soldered directly to the board or via headers so that it can be easily removed.
 
 <br>
 
-<center>
 <figure>
     <img src="assets/img/fscope250k5-v2/fscope-250k5-v2-assembled.jpg" alt="fscope assembled"/>
-    <figcaption>Your board may look slightly different to this - depending on the revision</figcaption>
+    <figcaption style="text-align:center">Your board may look slightly different to this - depending on the revision</figcaption>
 </figure>
-</center>
 
 ### Firmware Installation
 
@@ -61,7 +60,7 @@ Download and install the Scoppy FScope firmware. Instructions are on the [Instal
 The firmware file for the Pico is named scoppy-pico-fscope-250k5-vNN.uf2 and the file for the Pico W is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
 
 ### Trimmer capacitor adjustment
-Feed a 1kHz square wave into the CH1 input (using jumper wires or 1X probes - do NOT use 10X probes) and then adjust the trimmer capacitor (C15) until the displayed signal in the Scoppy app looks square. You'll need a small screwdriver to do the adjustment. Screwdrivers like those supplied with oscilloscope probes should work.
+Feed a 1kHz square wave into the CH1 input (using jumper wires or 1X probes - do NOT use 10X probes). If the waveform displayed in the app doesn't look square then adjust the trimmer capacitor (C15) until it does. You'll need a small screwdriver to do the adjustment. Screwdrivers like those supplied with oscilloscope probes should work.
 
 You can use the Scoppy signal generator to generate the 1kHz square wave as follows:
 #### If you have Rev. 2 of the FScope board (see the back of the board for the Revision number):
@@ -91,7 +90,7 @@ When the voltage range changes you'll probably see the trace momentarily 'jump'.
 The currently selected voltage range can be seen on the channel badge at the bottom of the app screen (a number between 0 and 3). To manually select a voltage range, tap the channel badge and then tap 'Select input voltage range'.   
    
 The actual values of the voltage ranges are uploaded to the app from the Pico when the board is connected to the Android device.
-If you make changes to the voltage ranges in the app they be lost when the board is next connected. 
+If you make changes to the voltage ranges in the app they will be lost when the board is next connected. 
 
 #### Signal generator (Rev 2)
 __(the following applies to Rev. 2 of the FScope board - see the back of the board for the revision number)__
