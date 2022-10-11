@@ -22,7 +22,7 @@ For optimum compatibility with your other Wi-Fi equipment select your country.
 
 #### Access Point
 
-The Pico W will function an access point. To connect with the Scoppy app you'll need to select the SCOPPY network in Android Settings (Connections -> Wi-Fi)  
+The Pico W will function as an access point. To connect with the Scoppy app you'll need to select the SCOPPY network in Android Settings (Connections -> Wi-Fi)  
 
 ##### AP SSID
 
@@ -42,7 +42,7 @@ The Pico W will function as a Wi-Fi station (aka client). In other words, it wil
 
 ##### SSID
 
-The SSID of your network's Wi-Fi access point (or router or modem if these incorporate an access point)
+The SSID of your network's Wi-Fi access point.
 
 ##### Password
 

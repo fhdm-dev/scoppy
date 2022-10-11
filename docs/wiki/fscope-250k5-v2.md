@@ -28,10 +28,15 @@ You will need to supply:
 
 - Solder the included green trimmer capacitors to C15 and C32. Polarity is not important.
 
-#### 2. Input Connectors
+#### 2a. Input Connectors (headers)
 
-- Solder pairs of 0.1" male headers to each of CH1/GND and CH2/GND (these can be found at the bottom of the board) and/or solder compatible BNC
-connectors to BNC CH1 and BNC CH2.
+- Solder pairs of 0.1" male headers to each of CH1/GND and CH2/GND (these can be found at the bottom of the board).
+
+#### 2b. Input Connectors (BNC connectors - optional)
+
+- The board can also be used with the inexpensive BNC connectors available on sites such as eBay, [Amazon](https://amzn.to/3HhM9zo) or Aliexpress. The footprint can be found in the datasheet [here](https://lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_dosinconn-DOSIN-801-0038_C709673.html).
+
+- If using BNC connectors, solder them to BNC CH1 and BNC CH2.
 
 #### 3. AC/DC Coupling pins
 
@@ -77,71 +82,8 @@ You can use the Scoppy signal generator to generate the 1kHz square wave as foll
    
 Repeat the procedure for CH2 (the trimmer capacitor for CH2 is labeled C32).
 
-### Board Features
-
-#### Input voltage ranges
-
-The FScope-250k5 board will automatically change the input voltage range (sensitivity) as you adjust the volts/div setting in the app. The best vertical resolution is
-obtained by adjusting volts/div so that the trace fills most of the screen vertically (assuming the vertical position is 0). Further increases in volts/div
-may result in the signal being clipped.
-    
-When the voltage range changes you'll probably see the trace momentarily 'jump'. This is expected.   
-   
-The currently selected voltage range can be seen on the channel badge at the bottom of the app screen (a number between 0 and 3). To manually select a voltage range, tap the channel badge and then tap 'Select input voltage range'.   
-   
-The actual values of the voltage ranges are uploaded to the app from the Pico when the board is connected to the Android device.
-If you make changes to the voltage ranges in the app they will be lost when the board is next connected. 
-
-#### Signal generator (Rev 2)
-__(the following applies to Rev. 2 of the FScope board - see the back of the board for the revision number)__
-
-The output from the Scoppy signal generator is accessed via the two SIG1 pins at H12 on the board.
-   
-The upper pin (LP) is used when you want the signal to be fed through the low-pass RC filter (eg. when 'Sine Wave (PWM)' is selected as the signal type in the Scoppy app). When using the SIG1 LP pin, the top two pins of H4 need to be connected with a jumper.
-
-The lower SIG1 pin (DIRECT) is used for direct access to the signal generator output.  When using the SIG1 DIRECT pin, the lower two pins of H4 need to be connected with a jumper. Note: if the upper 2 pins of H4 are connected this will affect the output of the signal generator and so the jumper on these pins should be removed when using the SIG1 DIRECT pin. 
-
-#### Signal generator  (Rev 3+)
-__(the following applies to Rev. 3 and higher of the FScope board - see the back of the board for the revision number)__
- 
-The output from the Scoppy signal generator is accessed via the two SIG pins at H12 on the board.
-   
-The upper pin (LP) is used when you want the signal to be fed through the low-pass RC filter (eg. when 'Sine Wave (PWM)' is selected as the signal type in the Scoppy app). When using the SIG LP pin, the two pins of H4 need to be connected with a jumper.
-
-The lower SIG pin (DIRECT) is used for direct access to the signal generator output. Note: If the 2 pins of H4 are connected this will affect the output of the signal generator and so the jumper on these pins should be removed when using the SIG DIRECT pin.
-
-#### AC/DC Coupling
-
-The pins marked DC are used to select AC or DC coupling. Connect the pins with a jumper for DC coupling. Leave the pins unconnected for AC coupling.
-
-#### BNC Connectors
-
-The board can be used with the inexpensive BNC connectors available on sites such as eBay, [Amazon](https://amzn.to/3HhM9zo) or Aliexpress. The footprint can be found in the datasheet [here](https://lcsc.com/product-detail/RF-Connectors-Coaxial-Connectors_dosinconn-DOSIN-801-0038_C709673.html).
-
-#### 10X Probes
-
-The board is compatible with 10X probes. The probe attenuation can be set in the app by tapping the channel badge at the bottom of the screen
-and then tapping 'Settings' and 'Probe'.
-   
-The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
-
-#### Miscellaneous
-
-H9, H10 - these are tiny prototyping areas. One hole is connected to GND. The others are not connected to anything.
-
-__Rev 2. only__
-
-H7, C28 and H6 - for a second signal generator (not implemented) - these will be removed in the next revision of the board.
-
-CN1 and U7 - For attaching an IDC connector and 5V->3.3V level shifter (SN74CB3T3245DWR). Allows the Scoppy logic analyzer to be used with 5V circuits. This will be removed in future revisions of the the board.
-
-H4 - The bottom row is not actually necessary and will be removed in the next revision of the board.
-
-The holes at the corners of the board are 4mm (160 mil).
-
-__Rev 3. and later__
-
-The holes at the corners of the board are 3.3mm (130 mil).
+### Using the FSCOPE-250K
+See [Using the FSCOPE-250K and DSO-500K](../wiki/fscope-dso-500k-v2-usage)
 
 <br>
 {% include see-also.md %}
