@@ -23,13 +23,13 @@ The [_DSO-500K_](https://store.fhdm.xyz/dso-500k) is a fully assembled version o
 
 If you have a DSO-500K or an FSCOPE-250K with a Pico W, then please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the board and the Scoppy app on your phone/tablet.
 
-Otherwise, attach the small end of an OTG adapter cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the FSCOPE/DSO board) and plug the other end of the adapter into a USB cable. This cable then plugs into the FSCOPE/DSO board).
+Otherwise, attach the small end of an OTG adapter cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the FSCOPE/DSO board) and plug the other end of the adapter into a USB cable. This cable then plugs into the micro-USB connector on the FSCOPE/DSO board.
 
 Once you open the app and a connection is established between the Pico and the Scoppy app the onboard LED should stop blinking. You may need to tap the 'Run' button in the app if the scope is currently stopped (Scoppy will either be RUNNING or STOPPED. This status is displayed at the top right of the grid).
 
 #### Connecting the signal source
 
-The signal source can be connected to either the header pins labeled CH1 and CH2 or the BNC connected (if fitted). All GND pins/connections are connected together internally.
+The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted). Note that all GND pins/connections are connected together internally.
 
 #### Input voltage ranges
 
