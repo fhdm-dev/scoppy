@@ -13,13 +13,13 @@ Download the firmware by selecting one of the following links.
 
 Pico: [scoppy-pico-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v11.uf2)
 <br>
-Pico W: [scoppy-pico-wireless-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-v11.uf2)
+Pico W: [scoppy-pico-wireless-v12.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-v12.uf2)
 
 If you have an [FScope](https://store.fhdm.xyz/) board then you will need to use one of these:
 <br>
 FScope with Pico: [scoppy-pico-fscope-250k5-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-fscope-250k5-v11.uf2)
 <br>
-FScope with Pico W: [scoppy-pico-wireless-fscope-250k5-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v11.uf2)
+FScope with Pico W: [scoppy-pico-wireless-fscope-250k5-v12.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v12.uf2)
 
 ### 3. Install the Firmware
 Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a micro USB cable. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
