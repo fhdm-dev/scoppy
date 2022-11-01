@@ -9,11 +9,11 @@ The aim of the Scoppy project is to give electronics novices and hobbyists and S
 
 ## What you'll need
 * An Android device that's running Android version 6.0 (Marshmallow) or higher. The device must also support USB OTG (On-The-Go) - most modern phones/tablets do (if you don't see the app when browsing the Play Store then your device probably doesn't support this feature)
-* A USB OTG adapter/cable compatible with your phone/tablet (available for a few dollars)
+* A USB OTG adapter/cable compatible with your phone/tablet (not required when using the Pico W and connecting via Wi-Fi)
 * A Rasperry Pi Pico or Pico W board
 
 > Important    
-> Please use the latest versions of the App (v1.020) and Firmware (v11). Older versions of the firmware may not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.020) and Firmware (v11 for the Pico, v12 for the Pico W). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
 ## Getting started
@@ -27,16 +27,15 @@ Start at the [documentation](https://oscilloscope.fhdm.xyz/) index.
 Go to the [Discussions](https://github.com/fhdm-dev/scoppy/discussions) section of this repository to well ... discuss Scoppy. For example, ask and answer questions, give feedback, request features, report bugs, share your front-end designs or comment on just about anything related to Scoppy, Oscilloscopes, Logic Analyzers or electronics in general.
 
 ## Measuring different voltage ranges (oscilloscope mode)
-To remove the 0-3.3V input voltage limitation (and do whatever signal conditioning magic takes your fancy) you’ll need to add an [analog front end](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End). This can be as simple as a voltage divider or as complex as you want it to be. The [Documentation](https://oscilloscope.fhdm.xyz/) contains some [examples](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End-Examples) of simple and cheap AFE designs and you are encouraged to share your own front end designs and ideas with other Scoppiers. Just head to the [forum](https://github.com/fhdm-dev/scoppy/discussions).
+To remove the 0-3.3V input voltage limitation (and do whatever signal conditioning magic takes your fancy) you’ll need to add an [analog front end](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End). This can be as simple as a voltage divider or as complex as you want it to be. The [Documentation](https://oscilloscope.fhdm.xyz/) contains some [examples](https://oscilloscope.fhdm.xyz/wiki/Analog-Front-End-Examples) of simple and cheap AFE designs.
    
-[Here's](https://github.com/fhdm-dev/scoppy/discussions/63) an example of a two channel, super-cheap front end that is easy to build and uses readily available components. 
+[Here's](https://github.com/fhdm-dev/scoppy/discussions/63) an example of a two channel, super-cheap front end that is easy to build and uses readily available components. This front end features high input impedance and over/under voltage protection. 
 
-![Two channel front end](https://user-images.githubusercontent.com/52391579/174912584-056eced0-f1bc-4d36-8f70-f12cc540e6ca.jpg)
-            
+![Two channel front end](images/diyscope-phone-sine-square-1024w.jpg)            
 
-Or for something a bit more fancy, here's a front-end that features multiple voltage ranges per channel, 10X probe compatibility and an input impedance of 1M||22pF. The schematic and PCB design can be found [here at OSHWLab](https://oshwlab.com/fruitloop57/fscope-250k5-v2_copy). The boards can also be purchased at the [FHDM store](https://store.fhdm.xyz/home).
+Or for something a bit more fancy, here's a front-end that automatically adjusts the sensitivity (input voltage range) as you change the volts/div setting in the app. It also features 10X probe compatibility, an input impedance of 1M||22pF and status LEDs for triggering and Wi-Fi. The schematic and PCB design can be found [here at OSHWLab](https://oshwlab.com/fruitloop57/fscope-250k5-v2_copy). The boards can also be purchased at the [FHDM store](https://store.fhdm.xyz/home).
 
-![FScope](https://drive.google.com/uc?export=view&id=10oddvpGA3GUvOC4BjK25yJQDPICNoB4N)
+![FScope](https://drive.google.com/uc?id=10D-kIm5N4zEbgG1oCBIfR1Mx8nv4kkV4)
 
 
 ## Tips
@@ -58,6 +57,7 @@ Or for something a bit more fancy, here's a front-end that features multiple vol
     * unplug the USB cable and plug it back in
 * If it's still not working then it's possible that your phone/tablet doesn't support USB OTG. You can test this by attaching a USB thumb drive to the OTG cable/adapter. You should be able to browse the files on the drive.
 * Some diagnostic information is also writtern to the Pico UART on GPIO 0 & 1
+* If using a Pico W see the [Wi-Fi troubleshooting](https://oscilloscope.fhdm.xyz/wiki/WiFi-Troubleshooting) page
 
 ## Specifications and features (oscilloscope)
 * Max. Sampling Rate: 500kS/s (shared between channels)
