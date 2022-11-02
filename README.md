@@ -78,13 +78,22 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 ## Known Bugs
 * When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
 
-## Links
+## Reviews
+* [Video by PicoLABO](https://youtu.be/LuLxhp1vdMQ) showing how to build a high impedance analog front end for Scoppy with over/under voltage protection
+* [Another AFE design by PicoLABO](https://youtu.be/LRcMg56Tius)
 * [Demonstration of Scoppy](https://www.youtube.com/watch?v=8ldxmyujHK8&t=4523s) on the DroneBot Workshop channel
 * Review of [Scoppy on YouTube by @Gabinete de Tecnologia](https://youtu.be/qqPxLXTxoTA)
 * An article on [Hackaday](https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/), including many scathing reviews in the comments section. If you hate Scoppy and/or its developer then this would be a great place to vent your anger!
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
+
+## Links
+* The Scoppy [Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) on the Play Store
+* Scoppy [documentation](https://oscilloscope.fhdm.xyz/)
+* Scoppy on Twitter - [@ScoppyScope](https://twitter.com/ScoppyScope)
+* Scoppy [channel on hackster.io](https://www.hackster.io/scoppy)
+* The Scoppy channel on [YouTube](https://www.youtube.com/channel/UCD006Xn-C9mPuT_jTxH3JHQ)
 
 ## <sup>1</sup>Advertising and in-app purchase
 The free (zero cost) version of the app is limited to one channel and USB. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and wireless support and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
@@ -107,5 +116,8 @@ FFT showing both channels and the YT (scope) window
 
 ![Scoppy XY + YT](images/screenshot_xy-yt.jpg)
 X-Y and YT displayed simultaneously
+
+![Scoppy on a tablet](https://drive.google.com/uc?id=1IPGzMUU3RqUHuc7IbmUrThvmboMmp53e)
+Scoppy and the [FHDM DSO-500K](https://store.fhdm.xyz/dso-500k) Oscilloscope
 
 
