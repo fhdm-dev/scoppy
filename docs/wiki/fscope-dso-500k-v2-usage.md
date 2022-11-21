@@ -1,17 +1,19 @@
 ---
-title: Using the FSCOPE-250K and DSO-500K
+title: Using the FSCOPE-500K and DSO-500K
 ---
 
-The [_FSCOPE-250K_](https://store.fhdm.xyz/fscope-500k) is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico or Pico W and the Scoppy Android app.
-Assembly instructions are [here](fscope-250k5-v2).
-   
-The [_DSO-500K_](https://store.fhdm.xyz/dso-500k) is a fully assembled version of the FSCOPE-250K using a Pico W. 
+> Note. The FSCOPE-500K was previously known as the FSCOPE-250K. Both boards are exactly the same.
 
-### Using the FSCOPE-250K and DSO-500K
+The [_FSCOPE-500K_](https://store.fhdm.xyz/fscope-500k) is a 2 channel oscilloscope analog front end for use with the Raspberry Pi Pico or Pico W and the Scoppy Android app.
+Assembly instructions are [here](fscope-500k).
+   
+The [_DSO-500K_](https://store.fhdm.xyz/dso-500k) is a fully assembled version of the FSCOPE-500K using a Pico W. 
+
+### Using the FSCOPE-500K and DSO-500K
 
 #### Connecting to your Phone/Tablet
 
-If you have a DSO-500K or an FSCOPE-250K with a Pico W, then please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the board and the Scoppy app on your phone/tablet.
+If you have a DSO-500K or an FSCOPE-500K with a Pico W, then please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the board and the Scoppy app on your phone/tablet.
 
 Otherwise, attach the small end of an OTG adapter cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the FSCOPE/DSO board) and plug the other end of the adapter into a USB cable. This cable then plugs into the micro-USB connector on the FSCOPE/DSO board.
 
@@ -19,11 +21,11 @@ Once you open the app and a connection is established between the Pico and the S
 
 #### Connecting the signal source
 
-The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted). Note that all GND pins/connections are connected together internally.
+The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted). Note that all GND pins/connections are connected together internally. For each channel the center of the BNC connector and the corresponding header pin input are also connected internally.
 
 #### Input voltage ranges
 
-The FSCOPE-250K and DSO-500K will automatically change the input voltage range (sensitivity) as you adjust the volts/div setting in the app. The best vertical resolution is
+The FSCOPE-500K and DSO-500K will automatically change the input voltage range (sensitivity) as you adjust the volts/div setting in the app. The best vertical resolution is
 obtained by adjusting volts/div so that the trace fills most of the screen vertically (assuming the vertical position is 0). Further increases in volts/div
 may result in the signal being clipped.
     
@@ -118,7 +120,7 @@ might help.
 
 > Note. If a jumper is connecting the pins on H4 then the this will affect the output of the signal generator. Remove the jumper before performing the trimmer capacitor adjustment.
 
-Instructions for adjusting the trimmer capacitors can be found in the [FSCOPE assembly instructions](fscope-250k5-v2.md).
+Instructions for adjusting the trimmer capacitors can be found in the [FSCOPE assembly instructions](fscope-500k).
 
 ## See also
 {% include wifi-links.md %}
