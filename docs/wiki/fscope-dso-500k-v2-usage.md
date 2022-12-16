@@ -21,7 +21,11 @@ Once you open the app and a connection is established between the Pico and the S
 
 #### Connecting the signal source
 
-The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted). Note that all GND pins/connections are connected together internally. For each channel the center of the BNC connector and the corresponding header pin input are also connected internally.
+The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted).
+
+> Note that all GND pins/connections are connected together internally. If using two channels, the (probe) GND wires for each channel must be at the same potential (because they are effectively shorted together). 
+
+> For each channel the center of the BNC connector and the corresponding header pin input are also connected internally. It it recommended you use either the BNC connector or the header pin input but NOT both at the same time.
 
 #### Input voltage ranges
 
