@@ -2,6 +2,38 @@
 title: Release Notes
 ---
 
+### Android App v1.022 - Pico (W) Firmware v14
+
+#### New Features and changes
+
+__SIN(X)/X INTERPOLATION__
+
+The app now uses Sin(x)/x interpolation for short timebase settings. This will improve the display of signals with a frequency above
+50kHz. This feature can be disabled via _Settings -> Display_.
+
+__CONFIGURATION__
+
+Many of the settings that previously would have required the firmware to be re-compiled can now be configured directly
+from the app. These include:
+- GPIO mappings. You can now configure which GPIOs are used for which function. Examples include the signal generator, voltage
+range pins and the status LEDS.
+- Voltage ranges. Voltage ranges can now be stored on the Pico(W). This means that they only need to be configured once and not on 
+every different Android device that connects to the Pico (W).
+- Other channel settings. These include the number of voltage range pins controlled by the app and a flag indicating if
+the analog front-end has an inverting configuration.
+
+To access these new configuration settings tap the connection badge at the bottom-left of the screen, then tap _Connected device_ and then _Firmware settings_.
+
+__VOLTAGE RANGES__
+
+The maximum number of voltage ranges has been increased from 4 to 8.
+
+__REFERENCE VOLTAGE__
+
+The Pico (W) can now be configured to generate a (PWM) reference voltage for each channel. A separate reference voltage can be
+configured per voltage range. This should make some analog front end designs simpler as the reference voltage can be used to
+generate the offset (which may be different for each range).
+
 ### Android App v1.020 - Pico Firmware v11
 
 #### New Features and changes
