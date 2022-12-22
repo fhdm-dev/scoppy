@@ -11,18 +11,18 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 Different firmware is available for the Pico and Pico W. The Pico firmware is not compatible with the Pico W and vice versa.
 Download the firmware by selecting one of the following links.
 
-Pico: [scoppy-pico-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v11.uf2)
+Pico: [scoppy-pico-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-v14.uf2)
 <br>
-Pico W: [scoppy-pico-wireless-v13.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-v13.uf2)
+Pico W: [scoppy-pico-wireless-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-v14.uf2)
 
 If you have an [FHDM FSCOPE](https://store.fhdm.xyz/fscope-500k) board then you will need to use one of these:
 <br>
-FSCOPE with Pico: [scoppy-pico-fscope-250k5-v11.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-fscope-250k5-v11.uf2)
+FSCOPE with Pico: [scoppy-pico-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-fscope-250k5-v14.uf2)
 <br>
-FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v13.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v13.uf2)
+FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2)
 
 If you have an [FHDM DSO-500K](https://store.fhdm.xyz/dso-500k) oscilloscope then you will need to use the
-[scoppy-pico-wireless-fscope-250k5-v13.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v13.uf2) firmware file.
+[scoppy-pico-wireless-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2) firmware file.
 <br>
 
 ### 3. Install the Firmware
