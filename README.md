@@ -13,7 +13,7 @@ The aim of the Scoppy project is to give electronics novices and hobbyists and S
 * A Rasperry Pi Pico or Pico W board
 
 > Important    
-> Please use the latest versions of the App (v1.020) and Firmware (v11 for the Pico, v12 for the Pico W). Older versions of the firmware may not work with the latest version of the app and vice versa
+> Please use the latest versions of the App (v1.022) and Firmware (v14). Older versions of the firmware may not work with the latest version of the app and vice versa
 
 
 ## Getting started
@@ -61,6 +61,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 
 ## Specifications and features (oscilloscope)
 * Max. Sampling Rate: 500kS/s (shared between channels)
+* Max. Analog bandwidth: 150kHz
 * Time/Div: 5us - 20secs
 * Memory depth depends on sampling rate. It ranges between 2kpts (shared between channels) and 20kpts in Run mode and up to 100kpts for Single shot captures.
 * 2 channels
@@ -96,7 +97,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * The Scoppy channel on [YouTube](https://www.youtube.com/channel/UCD006Xn-C9mPuT_jTxH3JHQ)
 
 ## <sup>1</sup>Advertising and in-app purchase
-The free (zero cost) version of the app is limited to one channel and USB. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and wireless support and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
+The free (zero cost) version of the app is limited to one channel. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
 
 ## Gallery
 ![Scoppy Oscilloscope App](images/scoppy-v2-running-2ch.jpg)
