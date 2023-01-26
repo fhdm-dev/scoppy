@@ -79,15 +79,32 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 ## Known Bugs
 * When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
 
-## Reviews
-* [Video by PicoLABO](https://youtu.be/LuLxhp1vdMQ) showing how to build a high impedance analog front end for Scoppy with over/under voltage protection
-* [Another AFE design by PicoLABO](https://youtu.be/LRcMg56Tius)
+## Reviews/Instructables/DIY Oscilloscope
 * [Demonstration of Scoppy](https://www.youtube.com/watch?v=8ldxmyujHK8&t=4523s) on the DroneBot Workshop channel
 * Review of [Scoppy on YouTube by @Gabinete de Tecnologia](https://youtu.be/qqPxLXTxoTA)
-* An article on [Hackaday](https://hackaday.com/2021/06/26/raspberry-pi-pico-oscilloscope/), including many scathing reviews in the comments section. If you hate Scoppy and/or its developer then this would be a great place to vent your anger!
+* [How To Electronics - DIY SmartPhone Oscilloscope using Raspberry Pi Pico](https://how2electronics.com/diy-smartphone-oscilloscope-using-raspberry-pi-pico/), [Video](https://www.youtube.com/watch?v=aT113PMj2RE)
+* Instructable - [Raspberry Pi Pico 200Khz Digital Oscilloscope](https://www.instructables.com/Raspberry-Pi-Pico-200Khz-Digital-Oscilloscope/)
+* [Video, Make your own DIY oscilloscope for £4 - Raspberry Pi PICO Project](https://www.youtube.com/watch?v=aJXPxTOMkoo) by backofficeshow
+* [Tom's Hardware](https://www.tomshardware.com/news/raspberry-pi-pico-oscilloscope) - Raspberry Pi Pico Powers Oscilloscope with Smartphone Interface
+* [Circuit Schools](https://www.circuitschools.com/diy-smartphone-oscilloscope-using-raspberry-pi-pico-in-5/) - DIY Smartphone Oscilloscope using Raspberry Pi Pico in 5$
+* [ElectronicClinic](https://www.electroniclinic.com/raspberry-pi-pico-oscilloscope-for-your-smart-phone-or-tablet-scoppy-oscilloscope/) - Raspberry Pi Pico Oscilloscope for your Smart Phone or Tablet, Scoppy Oscilloscope
+* [adafruit blog post](https://blog.adafruit.com/2022/01/21/raspberry-pi-pico-200khz-digital-oscilloscope-piday-raspberrypi-raspberry_pi/)
+* [Techtonions](https://www.techtonions.com/raspberry-pi-pico-oscilloscope/) - Raspberry Pi Pico Oscilloscope
+* [Phipps Electronics](https://www.phippselectronics.com/using-a-rpi-pico-as-an-oscilloscope/) - USING A RPI PICO AS AN OSCILLOSCOPE
+* [Geeky Gadgets](https://www.geeky-gadgets.com/scoppy-raspberry-pi-oscilloscope-project-28-06-2021/) - Scoppy DIY Raspberry Pi oscilloscope project 
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
+
+## Other Front-End Designs
+* [Video by PicoLABO](https://youtu.be/LuLxhp1vdMQ) showing how to build a high impedance analog front end for Scoppy with over/under voltage protection
+* [Another AFE design by PicoLABO](https://youtu.be/LRcMg56Tius)
+* [Analog Frontend for Scoppy Scope](https://www.pcbway.com/project/shareproject/Analog_Frontend_for_Scoppy_Scope_RP2040_c53564f4.html) by MakerIoT2020
+
+## Commercial Products Using the Scoppy App
+* [FHDM TECH FSCOPE-500K](https://store.fhdm.xyz/fscope-500k)
+* [FHDM TECH DSO-500K](https://store.fhdm.xyz/dso-500k)
+* [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
 
 ## Links
 * The Scoppy [Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) on the Play Store
