@@ -103,7 +103,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 
 ## Commercial Products Using the Scoppy App
 * [FHDM TECH FSCOPE-500K](https://store.fhdm.xyz/fscope-500k)
-* [FHDM TECH DSO-500K](https://store.fhdm.xyz/dso-500k)
+* FHDM TECH DSO-500K - [FHDM Store](https://store.fhdm.xyz/dso-500k), [Tindie](https://www.tindie.com/products/fhdm_tech/dso-500k-oscilloscope/)
 * [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
 
 ## Links
