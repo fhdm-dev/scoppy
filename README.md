@@ -92,6 +92,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * [Techtonions](https://www.techtonions.com/raspberry-pi-pico-oscilloscope/) - Raspberry Pi Pico Oscilloscope
 * [Phipps Electronics](https://www.phippselectronics.com/using-a-rpi-pico-as-an-oscilloscope/) - USING A RPI PICO AS AN OSCILLOSCOPE
 * [Geeky Gadgets](https://www.geeky-gadgets.com/scoppy-raspberry-pi-oscilloscope-project-28-06-2021/) - Scoppy DIY Raspberry Pi oscilloscope project 
+* [Chiptron](https://chiptron.cz/news.php?readmore=1432) - Blog post (Czech)
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
@@ -105,6 +106,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * [FHDM TECH FSCOPE-500K](https://store.fhdm.xyz/fscope-500k)
 * FHDM TECH DSO-500K - [FHDM Store](https://store.fhdm.xyz/dso-500k), [Tindie](https://www.tindie.com/products/fhdm_tech/dso-500k-oscilloscope/)
 * [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
+* [Vokolo FSCOPE-500K kit](https://www.vokolo.cz/fhdm-fscope-500k/) See also this [announcement on twitter](https://twitter.com/AzuzulaCZ/status/1628449856493608961?cxt=HHwWgoCz7YehtZktAAAA)
 
 ## Links
 * The Scoppy [Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) on the Play Store
