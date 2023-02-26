@@ -26,9 +26,11 @@ If you have an [FHDM DSO-500K](https://store.fhdm.xyz/dso-500k) oscilloscope the
 <br>
 
 ### 3. Install the Firmware
-Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a micro USB cable. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
+Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). You computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
 
 The onboard LED should start blinking.
+
+> On some Pico and Pico W boards we have found that the BOOTSEL button doesn't actually engage even though a definite 'click' can be felt. If you don't see the USB mass storage device appear on your computer when following the instructions above then you might need to press the button a little harder, but be VERY careful not to bend the board. Squeezing between the thumb and forefinger works for us.
 
 ### 4. Connect the Pico or Pico W to your Phone/Tablet
 

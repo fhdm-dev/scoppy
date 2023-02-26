@@ -5,10 +5,9 @@ title: Getting started with Scoppy and the Pico W
 {% include glossary-links.md %}
 
 <!--
-> This document assumes you have already installed the scoppy-pico-wireless [firmware]({{glossary_firmware}}) onto your Pico W (please note that the non wireless scoppy-pico firmware will not work on the Pico W). 
+    This document applies to the FHDM DSO-500K, FHDM FSCOPE-500K with Pico W - or a Pico W with the Scoppy firmware installed
 -->
 
-> This document assumes you have already installed the appropriate [firmware](./Installation-&-Getting-Started.md) onto your Pico W
 
 
 ## Introduction
@@ -21,7 +20,7 @@ The procedure for doing this is described below.
 
 ## Initial setup
 
-The initial setup can be performed either via USB or Wi-Fi. Both methods are described here. 
+The initial setup can be performed either via USB or Wi-Fi (USB is recommended). Both methods are described here. 
 
 The image below shows the location of the 'Connection badge' which is referred to in this document.
 
@@ -50,7 +49,7 @@ and is waiting for the Scoppy app to connect over Wi-Fi (if you are powering the
 * Update the firmware settings. See step 2 below.
 * When the Pico W restarts your phone/tablet should automatically reconnect to your local network. If not, go back to the Wi-Fi settings on your phone/tablet (eg. via the Android Settings app) and select your local network.
 * The app should soon connect to the Pico W. Once the connection is established the status led on the Pico W will stop blinking.
-* If the Pico W fails to connect to the local network and you need to update the firmware settings again then you can do this via USB or you can set the Pico W back to access point mode by copying [flash_nuke.uf2](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2) to the Pico W. If you nuke the flash, the scoppy firmware (uf2) file will need to be copied back to the Pico W.
+* If the Pico W fails to connect to the local network and you need to update the firmware settings again then you can do this via USB or you can set the Pico W back to access point mode by copying [flash_nuke.uf2](https://datasheets.raspberrypi.com/soft/flash_nuke.uf2) to the Pico W. If you nuke the flash, the scoppy firmware (uf2) file will need to be copied back to the Pico W (See [Installation & Getting Started](./Installation-&-Getting-Started.md)).
 
 ### 2. Update Firmware settings on the Pico W
 * Tap the Connection badge at the lower left of the screen and tap 'Connected device' and then 'Firmware settings' from the menu.
@@ -61,7 +60,16 @@ and is waiting for the Scoppy app to connect over Wi-Fi (if you are powering the
 * Leave the Scoppy Access Code field blank.
 * Tap OK
 * Restart your Pico W
+
+The status LED should start blinking quickly. This indicates that the oscilloscope is trying to connect to the local network. Once connected, the LED should then blink 3 times then pause. This indicates that the oscilloscope is waiting for a connection from the Scoppy App. 
+If the app doesn't connect within 30 seconds then exit the app via the Menu and open the app again.
+<br><br>
+If you still can't connect then see [Wi-Fi troubleshooting](../wiki/WiFi-Troubleshooting).
+
 * Continue with the remainder of step 1a or 1b above
+
+If you've tried everything and still can't connect then you can contact us at scoppy@fhdm.xyz and we'll do everything we can
+to help.
 
 ## More connection options
 The Scoppy app will connect to the first Pico W (with the scoppy-pico-wireless firmware installed) that it finds on the network.
