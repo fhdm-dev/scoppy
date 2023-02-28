@@ -4,14 +4,16 @@ title: DSO-500K Operating instructions
 
 ### Connecting to your Phone/Tablet
 
-The DSO-500K can communciate with your Android phone/table over Wi-Fi or via USB. We recommended connecting via USB first and then configuring the Wi-Fi connection.
+The DSO-500K can communicate with your Android phone/tablet over Wi-Fi or via USB. We recommended connecting via USB first and then configuring the Wi-Fi connection.
 
 #### USB
-Attach the small (male) end of an OTG adapter cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the DSO-500K!). 
+Attach the small (male) end of an OTG cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the DSO-500K!). 
 Plug a standard USB cable (Type-A to Micro-USB) into the other end of the OTG cable/adapter . Attach the other end of the USB cable to the micro-USB connector on the DSO-500K board.
 
 #### Wi-Fi
 Please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the DSO-500K and the Scoppy app on your phone/tablet (the DSO-500K uses a Pico W for wireless communication).
+
+#### RUN
 
 Once you open the app and a connection is established between the DSO-500K and the Scoppy app the onboard LED should stop blinking. You may need to tap the 'Run' button in the app if the scope is currently stopped (Scoppy will either be RUNNING or STOPPED. This status is displayed at the top right of the grid).
 
