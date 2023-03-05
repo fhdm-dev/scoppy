@@ -1,6 +1,8 @@
 ---
-title: DSO-500K Operating instructions
+title: DSO-500K operating instructions
 ---
+
+> The DSO-500K is powered by a Raspberry Pi Pico W. References to Pico or Pico W in this documentation also apply to the DSO-500K
 
 ### Connecting to your Phone/Tablet
 
@@ -10,14 +12,16 @@ The DSO-500K can communicate with your Android phone/tablet over Wi-Fi or via US
 Attach the small (male) end of an OTG cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the DSO-500K!). 
 Plug a standard USB cable (Type-A to Micro-USB) into the other end of the OTG cable/adapter . Attach the other end of the USB cable to the micro-USB connector on the DSO-500K board.
 
+_Please note that if a connection over USB hasn’t been established within 10 seconds the DSO-500K will start listening to connections over Wi-Fi (the Wi-Fi LED will blink). To try connecting via USB again the DSO-500K will need to be restarted (by disconnecting then reconnecting the USB cable)._
+
 #### Wi-Fi
-Please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the DSO-500K and the Scoppy app on your phone/tablet (the DSO-500K uses a Pico W for wireless communication).
+Please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the DSO-500K and the Scoppy app on your phone/tablet.
 
 #### RUN
 
 Once you open the app and a connection is established between the DSO-500K and the Scoppy app the onboard LED should stop blinking. You may need to tap the 'Run' button in the app if the scope is currently stopped (Scoppy will either be RUNNING or STOPPED. This status is displayed at the top right of the grid).
 
-#### Connecting the signal source
+### Connecting the signal source
 
 The signal source can be connected to either the header pins labeled CH1 and CH2 or a BNC connector (if fitted).
 
@@ -25,7 +29,7 @@ The signal source can be connected to either the header pins labeled CH1 and CH2
 
 > For each channel the center of the BNC connector and the corresponding header pin input are also connected internally. It it recommended you use either the BNC connector or the header pin input but NOT both at the same time.
 
-#### Input voltage ranges
+### Input voltage ranges
 
 The DSO-500K will automatically change the input voltage range (sensitivity) as you adjust the volts/div setting in the app. The best vertical resolution is
 obtained by adjusting volts/div so that the trace fills most of the screen vertically (assuming the vertical position is 0). Further increases in volts/div
@@ -35,7 +39,7 @@ When the voltage range changes you'll probably see the trace momentarily 'jump'.
    
 The currently selected voltage range can be seen on the channel badge at the bottom of the app screen (a number between 0 and 3). To manually select a voltage range, tap the channel badge and then tap 'Select input voltage range'.   
    
-#### Signal generator
+### Signal generator
 
 The output from the Scoppy signal generator is accessed via the two SIG pins at H12 on the board.
    
@@ -45,40 +49,25 @@ The lower SIG pin (DIRECT) is used for direct access to the signal generator out
 
 > Please note there is a bug that will sometimes cause the firmware to hang when the signal generator output is changed from a Sine (PWM) wave to square wave. If this happens simply cycle the power to the DSO-500K.
 
-#### AC/DC Coupling
+### AC/DC Coupling
 
 The pins marked DC are used to select AC or DC coupling. Connect the pins with a jumper for DC coupling. Leave the pins unconnected for AC coupling.
 
-#### 10X Probes
+### 10X Probes
 
 The board is compatible with 10X probes. The probe attenuation can be set in the app by tapping the channel badge at the bottom of the screen
 and then tapping 'Settings' and 'Probe'.
    
 The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
 
-#### Board Dimensions
+### Board Dimensions
 See [here](fscope-dso-500k-dimensions)
 
-#### Unpopulated holes/pads
+### Unpopulated holes/pads
+
+> For board revision 4b and lower see [here](https://oscilloscope.fhdm.xyz/wiki/fscope-dso-500k-v2-usage)
 
 There will be some unpopulated holes/pads on your board. Depending on your board revision these may include:
-
-_H9, H10_
-<br>
-These are tiny prototyping areas. One hole is connected to GND. The others are not connected to anything.
-
-_R32, R33_
-<br>
-Extra current limiting resistors for the Wi-Fi and Trigger LEDS. Add resistors here (and possibly remove R30/R31) to adjust
-LED brightness.
-
-_SWCLK, SWDIO_
-<br>
-Debug headers
-
-_H11_
-<br>
-Not used
 
 _+3.3V, VSYS_
 <br>
@@ -89,16 +78,15 @@ _-2.5V_
 Test point for the -2.5V rail. Do not draw current from this rail as it will adversely affect the performance
 of the oscilloscope.
 
-_H17, RESTART_
+_H17_
 <br>
-Shorting these will restart the DSO-500K. A momentary switch could be soldered to these holes/pads to make it easier to restart
-the oscilloscope.
+Restart/Reset. Shorting these will restart the DSO-500K. A momentary switch could be soldered to these holes/pads to make it easier to restart the oscilloscope. Double clicking the switch will cause the Pico W on the DSO-500K to enter USB mass storage mode.
 
-_H7, H15, R35, R36_ 
+_H7, H15_ 
 <br>
 For connecting external Wi-Fi and Trigger LEDS if the board is to be enclosed in a case.
 
-_H16, R32_ 
+_H9, R32_ 
 <br>
 For connecting an external status LED if the board is to be enclosed in a case (no firmware support for this as yet).
 
