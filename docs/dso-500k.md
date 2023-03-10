@@ -15,7 +15,7 @@ Plug a standard USB cable (Type-A to Micro-USB) into the other end of the OTG ca
 _Please note that if a connection over USB hasn’t been established within 10 seconds the DSO-500K will start listening to connections over Wi-Fi (the Wi-Fi LED will blink). To try connecting via USB again the DSO-500K will need to be restarted (by disconnecting then reconnecting the USB cable)._
 
 #### Wi-Fi
-Please see [Getting started with Scoppy and the Pico W](./Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the DSO-500K and the Scoppy app on your phone/tablet.
+Please see [Getting started with Scoppy and the Pico W](./wiki/Getting-started-with-the-Pico-W) for instructions on how to establish a wireless connection between the DSO-500K and the Scoppy app on your phone/tablet.
 
 #### RUN
 
@@ -61,7 +61,7 @@ and then tapping 'Settings' and 'Probe'.
 The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
 
 ### Board Dimensions
-See [here](fscope-dso-500k-dimensions)
+See [here](wiki/fscope-dso-500k-dimensions)
 
 ### Unpopulated holes/pads
 
@@ -92,7 +92,7 @@ For connecting an external status LED if the board is to be enclosed in a case (
 
 ### Updating the Firmware
 
-Instructions are on the [Installation & Getting Started](../wiki/Installation-&-Getting-Started) page.
+Instructions are on the [Installation & Getting Started](./wiki/Installation-&-Getting-Started) page.
 
 The firmware file is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
 
@@ -103,7 +103,7 @@ might help.
 
 > Note. If a jumper is connecting the pins on H4 then the this will affect the output of the signal generator. Remove the jumper before performing the trimmer capacitor adjustment.
 
-Instructions for adjusting the trimmer capacitors can be found in the [FSCOPE assembly instructions](fscope-500k).
+Instructions for adjusting the trimmer capacitors can be found in the [FSCOPE assembly instructions](wiki/fscope-500k).
 
 ## See also
 {% include wifi-links.md %}
