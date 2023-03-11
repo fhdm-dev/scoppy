@@ -67,25 +67,10 @@ See [here](fscope-dso-500k-dimensions)
 #### Unpopulated holes/pads
 
 >  If you have Rev. 2 of the FSCOPE board please see [FSCOPE-250K-Rev2](fscope-250k-rev2)
+<br>
+>  If you have Rev 4, 4a or 4b please see [FSCOPE-500K 4b](fscope-dso-500k-4b-unpopulated)
 
 There will be some unpopulated holes/pads on your board. Depending on your board revision these may include:
-
-_H9, H10_
-<br>
-These are tiny prototyping areas. One hole is connected to GND. The others are not connected to anything.
-
-_R32, R33_
-<br>
-Extra current limiting resistors for the Wi-Fi and Trigger LEDS. Add resistors here (and possibly remove R30/R31) to adjust
-LED brightness.
-
-_SWCLK, SWDIO_
-<br>
-Debug headers
-
-_H11_
-<br>
-Not used
 
 _+3.3V, VSYS_
 <br>
@@ -96,18 +81,18 @@ _-2.5V_
 Test point for the -2.5V rail. Do not draw current from this rail as it will adversely affect the performance
 of the oscilloscope.
 
-_H17, RESTART_
+_H17_
 <br>
-Shorting these will restart the Pico (W). A momentary switch could be soldered to these holes/pads to make it easier to restart
-the oscilloscope.
+Restart/Reset. Shorting these will restart the DSO-500K. A momentary switch could be soldered to these holes/pads to make it easier to restart the oscilloscope. Double clicking the switch will cause the Pico W on the DSO-500K to enter USB mass storage mode.
 
-_H7, H15, R35, R36_ 
+_H7, H15_ 
 <br>
 For connecting external Wi-Fi and Trigger LEDS if the board is to be enclosed in a case.
 
-_H16, R32_ 
+_H9, R32_ 
 <br>
 For connecting an external status LED if the board is to be enclosed in a case (no firmware support for this as yet).
+
 
 #### Miscellaneous
 
