@@ -1,5 +1,5 @@
 ---
-title: Wi-Fi Troublshooting
+title: Wi-Fi Troubleshooting
 ---
 
 The first thing to check is the LED on the Pico W board. See the table below.
@@ -8,7 +8,7 @@ The first thing to check is the LED on the Pico W board. See the table below.
 |---|------|--------------
 |Off|The board or firmware is not working|Ensure the board is powered on<br><br>Ensure the correct firmware has been copied to the board<br><br>Restart the Pico W
 |4 blinks then pause|The scoppy firmware is in *access point mode* and is waiting for your phone/tablet to join its network|Go to Connections -> Wi-Fi in Android Settings and select the SCOPPY network
-|3 blinks then pause|The Pico W has joined your local network and is trying to connect to the Scoppy app|Ensure the Connection Type in the app is set to Wi-Fi<br><br>Ensure the [Wi-Fi Connection settings](../app-help/WiFi-Connection-Settings) in the app are correct<br><br>Tap Run in the app<br><br>If all else fails try exiting the app and reopening it
+|3 blinks then pause|The Pico W has joined your local network and is trying to connect to the Scoppy app|Ensure the Connection Type in the app is set to Wi-Fi<br><br>Ensure the [Wi-Fi Connection settings](../app-help/WiFi-Connection-Settings) in the app are correct<br><br>Tap Run in the app<br><br>Tap the connection badge and then Reset Connection<br><br>Try exiting the app and reopening it<br><br>Disable Wi-Fi on the Android device and then enable it again<br><br>If all else fails try restarting the Android device and the oscilloscope
 |2 blinks then pause|The scoppy firmware is trying to establish a connection to the app over USB<sup>2</sup>|If you want to use USB, ensure the Connection Type in the app is set to USB.<br><br>If you want to use Wi-Fi, wait 10 seconds and Scoppy will try and establish a connection over Wi-Fi (and the LED status will change). 
 |Continuous fast blinking (5 per second)|The Pico W is trying to join your local network|Check that the SSID, password and authentication type in the _firmware settings_ are correct. To check these you'll need to connect via either USB or with the Pico W in _access point mode_.<br><br>Check that your network is compatible<sup>1</sup> with the wireless chip on the Pico W (especially that it is a 2.4GHz network, NOT 5GHz)
 |Continuous slow blinking (1 per second)|The Scoppy firmware is trying to establish communication with the Scoppy app|Tap Run in the app<br><br>If all else fails try exiting the app and reopening it
