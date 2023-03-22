@@ -106,6 +106,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * [FHDM TECH FSCOPE-500K](https://store.fhdm.xyz/fscope-500k)
 * FHDM TECH DSO-500K - [FHDM Store](https://store.fhdm.xyz/dso-500k), [Tindie](https://www.tindie.com/products/fhdm_tech/dso-500k-oscilloscope/)
 * [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
+* [PICOLABO PL2302AFE (Japan)](https://picolabo.org/pl2302afe/)
 * [Vokolo FSCOPE-500K kit](https://www.vokolo.cz/fhdm-fscope-500k/) See also this [announcement on twitter](https://twitter.com/AzuzulaCZ/status/1628449856493608961?cxt=HHwWgoCz7YehtZktAAAA)
 
 ## Links
