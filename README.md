@@ -93,6 +93,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * [Phipps Electronics](https://www.phippselectronics.com/using-a-rpi-pico-as-an-oscilloscope/) - USING A RPI PICO AS AN OSCILLOSCOPE
 * [Geeky Gadgets](https://www.geeky-gadgets.com/scoppy-raspberry-pi-oscilloscope-project-28-06-2021/) - Scoppy DIY Raspberry Pi oscilloscope project 
 * [Chiptron](https://chiptron.cz/news.php?readmore=1432) - Blog post (Czech)
+* [Scoppy Oscilloscope Casing](https://www.printables.com/model/428044-scoppy-oscilloscope-casing) - 3D printed phone stand and enclosure
 
 ## Tutorials/Experiments
 * Here are [some tutorials and experiments](https://github.com/fhdm-dev/scoppy-experiments) demonstrating how to use Scoppy with a variety of circuits.
