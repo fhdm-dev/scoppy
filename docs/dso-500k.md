@@ -61,7 +61,10 @@ and then tapping 'Settings' and 'Probe'.
 The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
 
 ### Board Dimensions
-See [here](wiki/fscope-dso-500k-dimensions)
+See [here](/wiki/fscope-dso-500k-dimensions)
+
+#### Enclosures
+See [here](/wiki/fscope-dso-500k-enclosures)
 
 ### Unpopulated holes/pads
 
