@@ -109,6 +109,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
 * [PICOLABO PL2302AFE (Japan)](https://picolabo.org/pl2302afe/)
 * [Vokolo FSCOPE-500K kit](https://www.vokolo.cz/fhdm-fscope-500k/) See also this [announcement on twitter](https://twitter.com/AzuzulaCZ/status/1628449856493608961?cxt=HHwWgoCz7YehtZktAAAA)
+* [2-channel Scoppy oscilloscope PCB with 3.5mm mono jacks](https://wavr.info/product/scoppy-frontend-5/) by wavr
 
 ## Links
 * The Scoppy [Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) on the Play Store
