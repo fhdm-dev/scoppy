@@ -108,6 +108,9 @@ might help.
 
 Instructions for adjusting the trimmer capacitors can be found in the [FSCOPE assembly instructions](wiki/fscope-500k).
 
+### Help and Support
+Visit the [FHDM TECH forum](https://fhdm.boards.net/)
+
 ## See also
 {% include wifi-links.md %}
 <br>
