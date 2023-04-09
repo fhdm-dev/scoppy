@@ -11,26 +11,24 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 Different firmware is available for the Pico and Pico W. The Pico firmware is not compatible with the Pico W and vice versa.
 Download the firmware by selecting one of the following links.
 
-Pico: [scoppy-pico-v15.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-v15.uf2)
+Pico: [scoppy-pico-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-pico-v15.uf2)
 <br>
-Pico W: [scoppy-picow-v15.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-picow-v15.uf2)
+Pico W: [scoppy-picow-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-picow-v15.uf2)
 
 If you have an [FHDM FSCOPE](https://store.fhdm.xyz/fscope-500k) board then you will need to use one of these:
 <br>
-FSCOPE with Pico: [scoppy-pico-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-fscope-250k5-v14.uf2)
+FSCOPE with Pico: [scoppy-pico-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-pico-fscope-250k5-v14.uf2)
 <br>
-FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2)
+FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-pico-wireless-fscope-250k5-v14.uf2)
 
 If you have an [FHDM DSO-500K](https://store.fhdm.xyz/dso-500k) oscilloscope then you will need to use the
-[scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2) firmware file.
+[scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-pico-wireless-fscope-250k5-v14.uf2) firmware file.
 <br>
 
 ### 3. Install the Firmware
 Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). You computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
 
 The onboard LED should start blinking.
-
-> On some Pico and Pico W boards we have found that the BOOTSEL button doesn't actually engage even though a definite 'click' can be felt. If you don't see the USB mass storage device appear on your computer when following the instructions above then you might need to press the button a little harder, but be VERY careful not to bend the board. Squeezing between the thumb and forefinger works for us.
 
 ### 4. Connect the Pico or Pico W to your Phone/Tablet
 
