@@ -17,12 +17,12 @@ Pico W: [scoppy-picow-v15.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/
 
 If you have an [FHDM FSCOPE](https://store.fhdm.xyz/fscope-500k) board then you will need to use one of these:
 <br>
-FSCOPE with Pico: [scoppy-pico-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-fscope-250k5-v14.uf2)
+FSCOPE with Pico: [scoppy-pico-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-fscope-250k5-v14.uf2)
 <br>
-FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2)
+FSCOPE with Pico W: [scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2)
 
 If you have an [FHDM DSO-500K](https://store.fhdm.xyz/dso-500k) oscilloscope then you will need to use the
-[scoppy-pico-wireless-fscope-250k5-v14.uf2](https://fhdm-dev.github.io/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2) firmware file.
+[scoppy-pico-wireless-fscope-250k5-v14.uf2](https://github.com/fhdm-dev/scoppy/raw/main/docs/downloads/scoppy-pico-wireless-fscope-250k5-v14.uf2) firmware file.
 <br>
 
 ### 3. Install the Firmware
