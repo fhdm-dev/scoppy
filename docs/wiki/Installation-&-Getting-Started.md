@@ -11,9 +11,9 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 Different firmware is available for the Pico and Pico W. The Pico firmware is not compatible with the Pico W and vice versa.
 Download the firmware by selecting one of the following links.
 
-Pico: [scoppy-pico-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-pico-v15.uf2)
+Pico: [scoppy-pico-v14.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v14/scoppy-pico-v14.uf2)
 <br>
-Pico W: [scoppy-picow-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/scoppy-picow-v15.uf2)
+Pico W: [scoppy-picow-v14.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v14/scoppy-pico-wireless-v14.uf2)
 
 If you have an [FHDM FSCOPE](https://store.fhdm.xyz/fscope-500k) board then you will need to use one of these:
 <br>
