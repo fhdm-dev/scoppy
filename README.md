@@ -12,9 +12,7 @@ The aim of the Scoppy project is to give electronics novices and hobbyists and S
 * A USB OTG adapter/cable compatible with your phone/tablet (not required when using the Pico W and connecting via Wi-Fi)
 * A Rasperry Pi Pico or Pico W board
 
-> Important    
-> Please use the latest versions of the App (v1.022) and Firmware (v14). Older versions of the firmware may not work with the latest version of the app and vice versa
-
+> The Scoppy app can also be run in Windows using android-x86 on a VM. However we don't provide official support for this. See this awesome [instructional video](https://youtu.be/_g9r7l23ZEw) by picoLabo (Japanese with English captions).
 
 ## Getting started
 
@@ -80,6 +78,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * When long-pressing the + or - buttons, moving your finger laterally will have the same effect as lifting your finger off the button. The only workaround is to keep your finger stready when long-pressing these buttons.
 
 ## Reviews/Instructables/DIY Oscilloscope
+* Running the [Scoppy app in Windows](https://youtu.be/_g9r7l23ZEw) using android-x86 on a VM by picoLabo (Japanese with English captions).
 * [Demonstration of Scoppy](https://www.youtube.com/watch?v=8ldxmyujHK8&t=4523s) on the DroneBot Workshop channel
 * Review of [Scoppy on YouTube by @Gabinete de Tecnologia](https://youtu.be/qqPxLXTxoTA)
 * [How To Electronics - DIY SmartPhone Oscilloscope using Raspberry Pi Pico](https://how2electronics.com/diy-smartphone-oscilloscope-using-raspberry-pi-pico/), [Video](https://www.youtube.com/watch?v=aT113PMj2RE)
@@ -106,6 +105,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 ## Commercial Products Using the Scoppy App
 * [FHDM TECH FSCOPE-500K](https://store.fhdm.xyz/fscope-500k)
 * FHDM TECH DSO-500K - [FHDM Store](https://store.fhdm.xyz/dso-500k), [Tindie](https://www.tindie.com/products/fhdm_tech/dso-500k-oscilloscope/)
+* FHDM TECH DSO500K-U - [Tindie](https://www.tindie.com/products/fhdm_tech/dso500k-u-oscilloscope/)
 * [PICOLABO PLU2212-DSO (Japan)](https://www.switch-science.com/products/8711)
 * [PICOLABO PL2302AFE (Japan)](https://picolabo.org/pl2302afe/)
 * [Vokolo FSCOPE-500K kit](https://www.vokolo.cz/fhdm-fscope-500k/) See also this [announcement on twitter](https://twitter.com/AzuzulaCZ/status/1628449856493608961?cxt=HHwWgoCz7YehtZktAAAA)
