@@ -4,6 +4,11 @@ title: DSO500K-U
 
 > The DSO500K-U is powered by a Raspberry Pi RP2040 Microcontroller as used on the Raspberry Pi Pico. References to Pico in this documentation also apply to the DSO500K-U
 
+### Install the Android App
+Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
+
+> If you have already installed the app please check that you have the latest version (click the link above). The DSO500K-U will NOT work with older versions of the app!
+
 ### Connecting to your Phone/Tablet
 
 Attach the small (male) end of an OTG cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the DSO500K-U!). 
@@ -78,11 +83,11 @@ _STATUS_
 <br>
 Can be connected to an LED if the DSO500K-U is to be placed in an enclosure.
 
-_H15 (Trigger)__
+_H15 (Trigger)_
 <br>
 Can be connected to an LED if the DSO500K-U is to be placed in an enclosure.
 
-_H4 (Sig. Gen)__
+_H4 (Sig. Gen)_
 <br>
 Can be wired to a connector if the DSO500K-U is to be placed in an enclosure.
 
@@ -114,10 +119,12 @@ the BOOT pins.
 
 ### Trimmer capacitor adjustment
 
-The green trimmer capacitors on the board were adjusted before the board was shipped but if you find your square waves are not looking very square then adjusting them
-might help. 
+The green trimmer capacitors on the board were adjusted before the board was shipped but if you find your square waves are not looking
+very square then adjusting them might help. 
 
-TODO
+Feed a 1kHz square wave into the CH1 input (using jumper wires or 1X probes - do NOT use 10X probes).
+
+If the waveform displayed in the app doesn't look square then adjust the trimmer capacitor (C15) until it does. You'll need a small screwdriver to do the adjustment. Screwdrivers like those supplied with oscilloscope probes should work.
 
 ### Help and Support
 Visit the [FHDM TECH forum](https://fhdm.boards.net/)

@@ -54,7 +54,7 @@ The Pico can be soldered directly to the board or via headers so that it can be 
 
 Download and install the Scoppy FSCOPE firmware. Instructions are on the [Installation & Getting Started](../wiki/Installation-&-Getting-Started) page.
 
-The firmware file for the Pico is named scoppy-pico-fscope-250k5-vNN.uf2 and the file for the Pico W is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
+The firmware file for the Pico is named scoppy-fscope-500k-pico-vNN.uf2 and the file for the Pico W is named scoppy-fscope-500k-picow-vNN.uf2 (where NN is the version number).
 
 ### Trimmer capacitor adjustment
 
