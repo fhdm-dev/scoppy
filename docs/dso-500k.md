@@ -4,6 +4,14 @@ title: DSO-500K operating instructions
 
 > The DSO-500K is powered by a Raspberry Pi Pico W. References to Pico or Pico W in this documentation also apply to the DSO-500K
 
+### Install the Scoppy Android App
+Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
+
+If you purchased your DSO-500K before June 13, 2023 you should have received a code and instructions to upgrade to the premium version of the app.
+
+For boards purchased after Jun 13 2023 (these boards have DSO-500K-P printed on the back), the premium features of the app will be unlocked automatically 
+and upgrading to the premium version of the Scoppy app is not required.
+
 ### Connecting to your Phone/Tablet
 
 The DSO-500K can communicate with your Android phone/tablet over Wi-Fi or via USB. We recommended connecting via USB first and then configuring the Wi-Fi connection.
@@ -95,9 +103,11 @@ For connecting an external status LED if the board is to be enclosed in a case (
 
 ### Updating the Firmware
 
-Instructions are on the [Installation & Getting Started](./wiki/Installation-&-Getting-Started) page.
+Download the [latest firmware file](https://github.com/fhdm-dev/scpdl1/raw/master/a/v16/scoppy-dso-500k-p-v16.uf2) to your computer.
 
-The firmware file is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
+Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). Your computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
+
+The onboard LED should start blinking.
 
 ### Trimmer capacitor adjustment
 
