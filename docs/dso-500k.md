@@ -66,7 +66,7 @@ The pins marked DC are used to select AC or DC coupling. Connect the pins with a
 The board is compatible with 10X probes. The probe attenuation can be set in the app by tapping the channel badge at the bottom of the screen
 and then tapping 'Settings' and 'Probe'.
    
-The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
+10X probes may need to be compensated to match in the input capacitance of the oscilloscope. [This video](https://www.youtube.com/watch?v=ke7ST2CUxNo) by R&S explains probe compensation in detail.
 
 ### Board Dimensions
 See [here](/wiki/fscope-dso-500k-dimensions)
@@ -100,6 +100,10 @@ For connecting external Wi-Fi and Trigger LEDS if the board is to be enclosed in
 _H9, R32_ 
 <br>
 For connecting an external status LED if the board is to be enclosed in a case (no firmware support for this as yet).
+
+_AP/ST_
+<br>
+Reserved for future use. We might add support for switching between AP and Station modes by the press of a button attached to these pads.
 
 ### Updating the Firmware
 

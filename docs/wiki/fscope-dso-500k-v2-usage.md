@@ -59,7 +59,7 @@ The pins marked DC are used to select AC or DC coupling. Connect the pins with a
 The board is compatible with 10X probes. The probe attenuation can be set in the app by tapping the channel badge at the bottom of the screen
 and then tapping 'Settings' and 'Probe'.
    
-The frequency compensation of 10X probes will need to be adjusted to match in the input capacitance of the oscilloscope.
+10X probes may need to be compensated to match in the input capacitance of the oscilloscope. [This video](https://www.youtube.com/watch?v=ke7ST2CUxNo) by R&S explains probe compensation in detail.
 
 #### Board Dimensions
 See [here](/wiki/fscope-dso-500k-dimensions)
@@ -86,7 +86,7 @@ of the oscilloscope.
 
 _H17_
 <br>
-Restart/Reset. Shorting these will restart the DSO-500K. A momentary switch could be soldered to these holes/pads to make it easier to restart the oscilloscope. Double clicking the switch will cause the Pico W on the DSO-500K to enter USB mass storage mode.
+Restart/Reset. Shorting these will restart the DSO-500K. A momentary switch could be soldered to these holes/pads to make it easier to restart the oscilloscope. Double clicking the switch will cause the Pico (or Pico W) to enter USB mass storage mode.
 
 _H7, H15_ 
 <br>
@@ -95,6 +95,10 @@ For connecting external Wi-Fi and Trigger LEDS if the board is to be enclosed in
 _H9, R32_ 
 <br>
 For connecting an external status LED if the board is to be enclosed in a case (no firmware support for this as yet).
+
+_AP/ST_
+<br>
+Reserved for future use. We might add support for switching between AP and Station modes by the press of a button attached to these pads.
 
 
 #### Miscellaneous
@@ -105,8 +109,11 @@ The holes at the corners of the board are 3.3mm (130 mil).
 
 Instructions are on the [Installation & Getting Started](../wiki/Installation-&-Getting-Started) page.
 
-The firmware file for the Pico is named scoppy-pico-fscope-250k5-vNN.uf2 and the file for the Pico W is named scoppy-pico-wireless-fscope-250k5-vNN.uf2 (where NN is the version number).
-If you have a DSO-500K, use the Pico W firmware.
+#### FSCOPE-500K
+The firmware file for the Pico is named scoppy-fscope-500k-vNN.uf2 and the file for the Pico W is named scoppy-fscope-500k-picow-vNN.uf2 (where NN is the version number).
+
+#### FSCOPE-500K
+See [here](/dso-500k).
 
 ### Trimmer capacitor adjustment
 
