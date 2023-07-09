@@ -31,7 +31,7 @@ To remove the 0-3.3V input voltage limitation (and do whatever signal conditioni
 
 ![Two channel front end](images/diyscope-phone-sine-square-1024w.jpg)            
 
-Or for something a bit more fancy, here's a front-end that automatically adjusts the sensitivity (input voltage range) as you change the volts/div setting in the app. It also features 10X probe compatibility, an input impedance of 1M||22pF and status LEDs for triggering and Wi-Fi. The schematic and PCB design can be found [here at OSHWLab](https://oshwlab.com/fruitloop57/fscope-250k5-v2_copy). The boards can also be purchased at the [FHDM store](https://store.fhdm.xyz/home).
+Or for something a bit more fancy, here's a front-end that automatically adjusts the sensitivity (input voltage range) as you change the volts/div setting in the app. It also features 10X probe compatibility, an input impedance of 1M||22pF and status LEDs for triggering and Wi-Fi. The schematic and PCB design can be found [here at OSHWLab](https://oshwlab.com/fruitloop57/fscope-250k5-v2_copy_copy_copy_copy). The boards can also be purchased at the [FHDM store](https://store.fhdm.xyz/home).
 
 ![FScope](https://drive.google.com/uc?id=10D-kIm5N4zEbgG1oCBIfR1Mx8nv4kkV4)
 
@@ -45,7 +45,6 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 
 ## Quirks
 * If the screen turns off or the app is no longer in the foreground, the run mode will change to STOPPED (to prevent draining the battery). You will need to tap RUN to restart the scope.
-* The OFF trigger mode prevents all triggering and Scoppy will set the horizonal position so that it is displaying the most recent samples (it normally tries to find a trigger point near the centre of the sample record). This in combination with a long Time/Div setting is equivalent to roll mode on many 'scopes. 
 
 ## Troubleshooting
 * If your phone has a Micro-USB connecter then check that the Micro-USB plug of the OTG cable/adapter is plugged into the phone and not into the Pico!
