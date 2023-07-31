@@ -106,8 +106,15 @@ Test points
 
 ### Updating the Firmware
 
-Download the firmware file onto your computer.
+#### Download the firmware file onto your computer.
+
+If you purchased the DSO500K-U after July 1 2023 please use this file:<br>
+[scoppy-dso500k-u2-v16.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v16/scoppy-dso500k-u2-v16.uf2)
+
+If you purchased the DSO500K-U before July 1 2023 please use this file:<br>
 [scoppy-dso500k-u-v16.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v16/scoppy-dso500k-u-v16.uf2)
+
+#### Install the firmware
 
 Short the BOOT pins with a jumper (or hold down the BOOLSEL button if fitted) while connecting the DSO500K-U to your computer with a USB cable.
 The DSO500K-U will appear as a mass storage device.
