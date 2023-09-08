@@ -2,11 +2,15 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
-layout: home
+layout: default
 
 title: Scoppy
 
 ---
+
+[![](/wiki/assets/img/ad-banner-1.jpg)](https://store.fhdm.xyz/home)
+
+# Scoppy
 
 [Installation & Getting Started](./wiki/Installation-&-Getting-Started)   
 * Instructions for installing the Android app and Pico firmware, connecting the Pico to your Android device and connecting the Scoppy oscilloscope to your signal source
@@ -36,6 +40,12 @@ title: Scoppy
 * Experiments, tutorials and examples using Scoppy
 
 [Release Notes](./wiki/ReleaseNotes)
+
+## BUY
+
+Scoppy powered oscilloscopes are available for purchase at the [FHDM Store](https://store.fhdm.xyz/), [Tindie](https://www.tindie.com/stores/fhdm_tech/) and [Elecrow](https://www.elecrow.com/dso-500k-oscilloscope.html)
+
+[![](https://drive.google.com/uc?id=1IPGzMUU3RqUHuc7IbmUrThvmboMmp53e)](https://store.fhdm.xyz/dso-500k)
 
 <br>
 ### See Also
