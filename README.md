@@ -118,7 +118,7 @@ Or for something a bit more fancy, here's a front-end that automatically adjusts
 * The Scoppy channel on [YouTube](https://www.youtube.com/channel/UCD006Xn-C9mPuT_jTxH3JHQ)
 
 ## <sup>1</sup>Advertising and in-app purchase
-The free (zero cost) version of the app is limited to one channel. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$2 for a lifetime purchase - exact price depends on your location).
+The free (zero cost) version of the app is limited to one channel. A single banner ad may be displayed at the top of the screen. To enable the extra channel(s) and remove all advertising, a small in-app purchase is required (approx. US$3 for a lifetime purchase - exact price depends on your location).
 
 ## Gallery
 ![Scoppy Oscilloscope App](images/scoppy-v2-running-2ch.jpg)
