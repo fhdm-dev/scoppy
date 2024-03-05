@@ -107,7 +107,7 @@ Reserved for future use. We might add support for switching between AP and Stati
 
 ### Updating the Firmware
 
-Download the [latest firmware file](https://github.com/fhdm-dev/scpdl1/raw/master/a/v16/scoppy-dso-500k-p-v16.uf2) to your computer.
+Download the latest firmware file from [here](./wiki/firmware-versions) to your computer. The file will be named scoppy-dso-500k-p-vNN.uf2 where NN is the version number.
 
 Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). Your computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
 

@@ -22,6 +22,7 @@ title: App Help Index
 * [Wi-Fi Connection Settings](../app-help/WiFi-Connection-Settings)
 * [Scoppy Firmware Settings](../app-help/Firmware-Settings)
 * [Voltage Ranges](../app-help/Voltage-Ranges)
+* [RP2040 Settings (incl. max sample rate)](../app-help/rp2040-settings)
 * [Release Notes](../wiki/ReleaseNotes)
 
 <br>

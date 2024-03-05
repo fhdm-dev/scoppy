@@ -8,23 +8,7 @@ Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=x
 
 ### 2. Download the Firmware
 
-Different firmware is available for the Pico and Pico W. The Pico firmware is not compatible with the Pico W and vice versa.
-Download the firmware by selecting one of the following links.
-
-Pico: [scoppy-pico-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v15/scoppy-pico-v15.uf2)
-<br>
-Pico W: [scoppy-picow-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v15/scoppy-picow-v15.uf2)
-
-If you have an [FHDM FSCOPE](https://store.fhdm.xyz/fscope-500k) board then you will need to use one of these:
-<br>
-FSCOPE with Pico: [scoppy-fscope-500k-pico-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v15/scoppy-fscope-500k-pico-v15.uf2)
-<br>
-FSCOPE with Pico W: [scoppy-fscope-500k-picow-v15.uf2](https://github.com/fhdm-dev/scpdl1/raw/master/a/v15/scoppy-fscope-500k-picow-v15.uf2)
-
-For the FHDM DSO-500K see [here](https://store.fhdm.xyz/dso-500k). 
-<br>
-
-Older firmware versions can found [here](/wiki/firmware-versions).
+Download the firmware onto your computer from [here](./firmware-versions)
 
 ### 3. Install the Firmware
 Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). Your computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
