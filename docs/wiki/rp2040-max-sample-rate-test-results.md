@@ -49,7 +49,7 @@ The red circle shows an area of distortion that is not visible at the lower _max
 
 ### 200kHz Sine Wave
 
-Using the default 500kS/s setting the waveform is extremely wonky! The higher samples rates result in a
+Using the default 500kS/s setting the waveform is extremely wonky! The higher sample rates result in a
 much less distorted waveform.
 
 #### 500kS/s

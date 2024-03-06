@@ -41,7 +41,7 @@ the maximum Logic Analyzer sample rate from 25MS/s to 38MS/s.
 The setting is stored in the Android app and so it will need to be modified on each Android device.
 
 ### What is the maximum sample rate when two oscilloscope channels are enabled?
-When both channels are enabled the maximum sample rate is halved. The maximum samples rates for the three possible settings are thus
+When both channels are enabled the maximum sample rate is halved. The maximum sample rates for the three possible settings are thus
 250kS/s, 625kS/s and 1MS/s when using two channels.
 
 ## Footnotes
