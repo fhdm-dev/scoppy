@@ -7,7 +7,7 @@ title: RP2040 Maximum Sample Rate Setting
 ## About
 
 The RP2040 datasheet states that the clock source for the built-in ADC must be 48MHz and that each ADC conversion takes 96 clock cycles.
-This gives a maximum sample rate of 500kS/s (ie. 48000000 % 96 = 500000). This in turn limits the maximum bandwidth achievable by a Scoppy oscilloscope<sup>1</sup>.
+This gives a maximum sample rate of 500kS/s (ie. 48000000 / 96 = 500000). This in turn limits the maximum bandwidth achievable by a Scoppy oscilloscope<sup>1</sup>.
 
 However, if we ignore the datasheet and clock the ADC at a higher rate then we can achieve sample rates of up to 2.0MS/s with negligible affects on
 performance. The setting described here allows us to do just that.
@@ -26,8 +26,8 @@ Tap your desired setting and then OK. The new maximum sample rate setting will t
 
 ## FAQ
 ### Does changing the maximum sample rate affect the accuracy of the oscilloscope?
-We have found very little difference between the 3 available sample rates. We will be publishing some test results soon. However, performance
-may depend on the analog front-end used to drive the ADCs of the RP2040.
+We have found very little difference between the 3 available sample rates. However, performance
+may depend on the analog front-end used to drive the ADCs of the RP2040. See results of our testing [here](../wiki/rp2040-max-sample-rate-test-results).
 
 ### Will the ADC perform as per the RP2040 datasheet specifications at the higher sample rates?
 Unlikely. The higher sample rates are outside of the recommended range specified in the RP2040 datasheet and so the specifications stated
