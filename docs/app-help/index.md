@@ -23,6 +23,7 @@ title: App Help Index
 * [Scoppy Firmware Settings](../app-help/Firmware-Settings)
 * [Voltage Ranges](../app-help/Voltage-Ranges)
 * [RP2040 Settings (incl. max sample rate)](../app-help/rp2040-settings)
+* [Premium Upgrade](Upgrade-To-Premium)
 * [Release Notes](../wiki/ReleaseNotes)
 
 <br>

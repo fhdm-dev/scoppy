@@ -7,11 +7,6 @@ title: DSO-500K operating instructions
 ### Install the Scoppy Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
-If you purchased your DSO-500K before June 13, 2023 you should have received a code and instructions to upgrade to the premium version of the app.
-
-For boards purchased after Jun 13 2023 (these boards have DSO-500K-P printed on the back), the premium features of the app will be unlocked automatically 
-and upgrading to the premium version of the Scoppy app is not required.
-
 ### Connecting to your Phone/Tablet
 
 The DSO-500K can communicate with your Android phone/tablet over Wi-Fi or via USB. We recommended connecting via USB first and then configuring the Wi-Fi connection.
