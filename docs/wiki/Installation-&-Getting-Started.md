@@ -21,11 +21,31 @@ Communication between the firmware on the Pico (or Pico W) and app on the phone/
 
 #### a. USB
 
+Open the app and look at the connection badge at the lower left of the app screen and check that the connection type is set to USB. If it isn't USB, tap the badge and then tap 'Change connection type' from the menu and then select USB.
+
+![](img/app/usb-connection-type-disconnected.png)
+
 Attach the small end of the OTG cable/adapter to the USB input of the Android device (do NOT plug it into the USB socket of the Pico!). Then use a USB cable to connect the OTG cable/adapter to the Pico (or Pico W). You should see the status LED on the Pico start blinking. 
 
-Once you open the app and a connection is established between the Pico and the Scoppy app the onboard LED should stop blinking. You may need to tap the 'Run' button in the app if the scope is currently stopped (Scoppy will either be RUNNING or STOPPED. This status is displayed at the top right of the grid).
+Android will now probably ask permission for the Scoppy app to access USB. Tap Yes/OK.
+
+Once a connection is established between the Pico and the Scoppy app the onboard LED should stop blinking. You may need to tap the 'Run' button in the app if the scope is currently stopped (Scoppy will either be RUNNING or STOPPED. This status is displayed at the top right of the grid).
+
+The connection badge should now display 'USB OK'
+
+![](img/app/usb-ok.png)
+
+<br>
 
 Please note that if you are using a Pico W and a connection over USB hasn’t been established within 10 seconds the Pico W will start listening to connections over Wi-Fi. To try connecting via USB again the Pico W will need to be restarted.
+
+__USB connection troubleshooting__
+
+If a connection cannot be established over USB then check the following:
+* Make sure the OTG adapter is plugged into the Android device and not the Oscilloscope. If using a Micro-USB adaptor it is possible to get this the wrong way around.
+* Do not use other adapters between the Android device and oscilloscope. For example, using a Type-C to Micro USB adapter between the OTG adapter and phone will prevent
+a connection being established.
+* Ensure the correct firmware has been installed. You can do this by repeating steps 2 and 3.
 
 #### b. Wi-Fi (Pico W)
 
