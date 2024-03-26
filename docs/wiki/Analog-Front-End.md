@@ -26,7 +26,7 @@ To measure different voltage ranges (eg. -5V to +5V or 0V to 0.1V etc) than the 
 You will need to design your analog front-end so that it either:
 * allows selection of the voltage range by the user (eg. using a mechanical switch). The front end will also need to set the appropriate values at the voltage range pins of the Pico so that the firmware and app know which voltage range is currently selected
 * OR
-* reads the values of the voltage range pins and sets the range of the front-end accordingly (eg. via an analog switch such as a CD4052)
+* reads the values of the voltage range pins and sets the range of the front-end accordingly (eg. via an analog switch such as a CD4052). The values of the voltage range pins will be set by the firmware according to the current Volts/Div setting in the app.
 
 If using the latter method, you will need to configure the _Auto Voltage Range Pins_ setting to the appropriate value (see below).
 
@@ -93,7 +93,7 @@ level combinations at the pins.
 
 Note:
 * bit 2 is disabled by default.
-* each voltage range GPIO configured as an input is pulled low. If you connect nothing to these pins then range 0 is selected.
+* each voltage range GPIO that is configured as an input is pulled low. If you connect nothing to these pins then range 0 is selected.
 
 
 | GPIO 2 (CH1 bit 1)| GPIO 3 (CH1 bit 0)| CH 1 Voltage Range ID|
