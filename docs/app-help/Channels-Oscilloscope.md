@@ -2,16 +2,35 @@
 title: Channels - Oscilloscope
 ---
 
-Tap the channel badge at the bottom of the screen to show the channel menu.
-From the menu the channel can be enabled/disabled and the channel voltage range(s) can be configured.   
+## Enabling/Disabling Channels
 
-Tapping and holding the channel badge will switch the channel on or off.
+Channels can be enabled/disabled (switched on or off) by tapping the channel badge and selecting the appropriate option from the popup menu. Alternatively, tapping and holding the channel badge will toggle its enabled state.
 
-If the Oscilloscope front end can measure voltage ranges different to the default 0-3.3V range of the Pico (eg if you have added a resistor divider in front of the ADC pin) then you
-will need to configure the channel as described [here](../wiki/Analog-Front-End) in order for Scoppy to display the correct voltage
-values.
+![](images/enable-channels.png)
 
-The probe attenuation value can also be configured. Tap the channel badge and select Settings and then Probe from the menu.
+![](images/both-channels-enabled.png)
+
+<br>
+
+> TIP. Tapping and holding the channel badge will switch the channel on or off.
+
+<br>
+
+## Probe attenuation
+
+The probe attenuation value can also be configured. Tap the channel badge and select _Settings_ and then _Probe_ from the menu.
+
+## Measurements > On-screen
+
+Select this from the popup menu to configure the on-screen measurements
+
+> TIP. Tapping the the on-screen measurements will display configuration screen for the measurements.
+
+## Measurements > Snapshot
+
+Select this from the popup menu to view the snapshot measurements
+
+> TIP. Long pressing the the on-screen measurements will display the snapshot measurements.
 
 <br>
 {% include see-also.md %}
