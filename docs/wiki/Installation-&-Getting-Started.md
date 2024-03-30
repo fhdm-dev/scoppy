@@ -21,6 +21,8 @@ Communication between the firmware on the Pico (or Pico W) and app on the phone/
 
 #### a. USB
 
+> Please note that if you are using a Pico W and a connection over USB hasn’t been established within 10 seconds of powering up the board, the Pico W will start listening to connections over Wi-Fi. To try connecting via USB again the Pico W will need to be restarted.
+
 Open the app and look at the connection badge at the lower left of the app screen and check that the connection type is set to USB. If it isn't USB, tap the badge and then tap 'Change connection type' from the menu and then select USB.
 
 ![](img/app/usb-connection-type-disconnected.png)
@@ -37,7 +39,7 @@ The connection badge should now display 'USB OK'
 
 <br>
 
-Please note that if you are using a Pico W and a connection over USB hasn’t been established within 10 seconds the Pico W will start listening to connections over Wi-Fi. To try connecting via USB again the Pico W will need to be restarted.
+Please note that if you are using a Pico W and a connection over USB hasn’t been established within 10 seconds the Pico W will start listening to connections over Wi-Fi. To try connecting via USB again simply unplug the OTG adapter and then try again.
 
 __USB connection troubleshooting__
 
@@ -45,7 +47,9 @@ If a connection cannot be established over USB then check the following:
 * Make sure the OTG adapter is plugged into the Android device and not the Oscilloscope. If using a Micro-USB adaptor it is possible to get this the wrong way around.
 * Do not use other adapters between the Android device and oscilloscope. For example, using a Type-C to Micro USB adapter between the OTG adapter and phone will prevent
 a connection being established.
+* If the Wi-Fi LED is blinking, unplug the OTG adapter from the Android device and then try again.
 * Ensure the correct firmware has been installed. You can do this by repeating steps 2 and 3.
+* Check that the USB cable is not a 'power-only' cable.
 
 #### b. Wi-Fi (Pico W)
 
