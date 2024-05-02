@@ -1,4 +1,4 @@
-> If you are looking for the Scopy Oscilloscope by Analog Devices you can find it [here](https://wiki.analog.com/university/tools/m2k/scopy/oscilloscope).
+> Woo-hoo. Scoppy can now sample at 2MS/s (previously 500kS/s was the limit). See [here](https://oscilloscope.fhdm.xyz/app-help/rp2040-max-sample-rate-setting) for configuration instructions and our [related article on hackster.io](https://www.hackster.io/sandy-roberts2/quadrupling-the-sample-rate-of-an-rp2040-oscilloscope-5f9a74)
 
 # Scoppy
 Scoppy is an oscilloscope and logic analyzer powered by your Android phone/tablet and Raspberry Pi Pico or Pico W. Signals are measured by the Pico and the waveforms are displayed on the Android device. No programming is required and both the app and firmware are free to download<sup>1</sup>. Installation is super easy and should only take a few minutes.
