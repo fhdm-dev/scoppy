@@ -6,12 +6,21 @@ title: Installation
 ### 1. Install the Android App
 Install the [Scoppy Android app](https://play.google.com/store/apps/details?id=xyz.fhdm.scoppy) from the Play Store.
 
-### 2. Download the Firmware
+### 2. Erase Existing Data from Pico Flash
+
+Erase all existing data from the Pico (or Pico W) flash by following the instructions here: [Erase Flash](../wiki/erase-flash)
+
+> Important. Failure to erase existing data from the flash storage may result in the Scoppy firmware not working correctly or at all!
+
+### 3. Download and Install the Firmware
 
 Download the firmware onto your computer from [here](./firmware-versions)
 
-### 3. Install the Firmware
-Push and hold the BOOTSEL button on the Pico, then connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). Your computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer. Copy the uf2 file to your Pico.   
+After erasing the flash using the instructions above (step 2), the Pico should be visible on your computer as a mass storage device. 
+
+> If you don't see the Pico on your computer as a mass storage device then push and hold the BOOTSEL button on the Pico and connect it to your computer using a normal USB cable (Type-A male to Micro-USB male). Your computer should detect the Pico as a USB Mass Storage device. Release BOOTSEL once the drive RPI-RP2 appears on your computer.
+
+Copy the firmware uf2 file to the mass storage device.
 
 The onboard LED should start blinking.
 

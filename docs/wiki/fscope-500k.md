@@ -51,6 +51,9 @@ The Pico can be soldered directly to the board or via headers so that it can be 
 </figure>
 
 ### Firmware Installation
+Erase all existing data from the Pico (or Pico W) flash by following the instructions here: [Erase Flash](../wiki/erase-flash)
+
+> Important. Failure to erase existing data from the flash storage may result in the FSCOPE-500K not working correctly or at all!
 
 Download and install the Scoppy FSCOPE firmware. Instructions are on the [Installation & Getting Started](../wiki/Installation-&-Getting-Started) page.
 
